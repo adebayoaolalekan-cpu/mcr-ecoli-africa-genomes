@@ -1,0 +1,676 @@
+[
+ {
+  "erd": "PDS000047718.2",
+  "ours": [
+   "SAMN13107363",
+   "SAMN13107364",
+   "SAMN13107349",
+   "SAMN13107350",
+   "SAMN13107346",
+   "SAMN10986378",
+   "SAMN10986384",
+   "SAMN10986379",
+   "SAMN10986381"
+  ],
+  "n_ours": 9,
+  "countries": {
+   "Tanzania": 9
+  },
+  "sectors": {
+   "Poultry": 2,
+   "Unspecified": 3,
+   "Human": 4
+  },
+  "sts": {
+   "46": 9
+  },
+  "min_same": [
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "members": 9,
+  "mcr_pos": 9,
+  "geos": {
+   "Tanzania": 9
+  },
+  "epi": {
+   "environmental/other": 5,
+   "clinical": 4
+  }
+ },
+ {
+  "erd": "PDS000244410.1",
+  "ours": [
+   "SAMN44571232",
+   "SAMN44571233",
+   "SAMN44571236",
+   "SAMN44571234",
+   "SAMN44571235"
+  ],
+  "n_ours": 5,
+  "countries": {
+   "Uganda": 5
+  },
+  "sectors": {
+   "Poultry": 5
+  },
+  "sts": {
+   "155": 5
+  },
+  "min_same": [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "members": 5,
+  "mcr_pos": 5,
+  "geos": {
+   "Uganda": 5
+  },
+  "epi": {
+   "": 5
+  }
+ },
+ {
+  "erd": "PDS000233823.2",
+  "ours": [
+   "SAMN48947222",
+   "SAMN48947225",
+   "SAMN48947216",
+   "SAMN48947220"
+  ],
+  "n_ours": 4,
+  "countries": {
+   "Algeria": 4
+  },
+  "sectors": {
+   "Poultry": 4
+  },
+  "sts": {
+   "616": 4
+  },
+  "min_same": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "members": 4,
+  "mcr_pos": 4,
+  "geos": {
+   "Algeria": 4
+  },
+  "epi": {
+   "environmental/other": 4
+  }
+ },
+ {
+  "erd": "PDS000168882.2",
+  "ours": [
+   "SAMN38019464",
+   "SAMN33246729",
+   "SAMEA112238980"
+  ],
+  "n_ours": 3,
+  "countries": {
+   "Nigeria": 3
+  },
+  "sectors": {
+   "Human": 3
+  },
+  "sts": {
+   "1266": 2,
+   "Untypeable": 1
+  },
+  "min_same": [
+   "",
+   "",
+   ""
+  ],
+  "members": 3,
+  "mcr_pos": 3,
+  "geos": {
+   "Nigeria": 3
+  },
+  "epi": {
+   "clinical": 3
+  }
+ },
+ {
+  "erd": "PDS000261864.1",
+  "ours": [
+   "SAMN54240900",
+   "SAMN57053898"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Tunisia": 2
+  },
+  "sectors": {
+   "Human": 2
+  },
+  "sts": {
+   "9697": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Tunisia": 2
+  },
+  "epi": {
+   "clinical": 2
+  }
+ },
+ {
+  "erd": "PDS000242251.1",
+  "ours": [
+   "SAMN47596258",
+   "SAMN47596259"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Tunisia": 2
+  },
+  "sectors": {
+   "Food (non-poultry)": 2
+  },
+  "sts": {
+   "3941": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Tunisia": 2
+  },
+  "epi": {
+   "": 2
+  }
+ },
+ {
+  "erd": "PDS000233820.2",
+  "ours": [
+   "SAMN48947223",
+   "SAMN48947221"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Algeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "101": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Algeria": 2
+  },
+  "epi": {
+   "environmental/other": 2
+  }
+ },
+ {
+  "erd": "PDS000233814.1",
+  "ours": [
+   "SAMN48947184",
+   "SAMN48947189"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Algeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "117": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Algeria": 2
+  },
+  "epi": {
+   "environmental/other": 2
+  }
+ },
+ {
+  "erd": "PDS000233826.1",
+  "ours": [
+   "SAMN48947234",
+   "SAMN48947233"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Algeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "8492": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Algeria": 2
+  },
+  "epi": {
+   "environmental/other": 2
+  }
+ },
+ {
+  "erd": "PDS000233824.1",
+  "ours": [
+   "SAMN48947213",
+   "SAMN48947207"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Algeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "162": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Algeria": 2
+  },
+  "epi": {
+   "environmental/other": 2
+  }
+ },
+ {
+  "erd": "PDS000233815.1",
+  "ours": [
+   "SAMN48947203",
+   "SAMN48947202"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Algeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "7139": 1,
+   "Untypeable": 1
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Algeria": 2
+  },
+  "epi": {
+   "environmental/other": 2
+  }
+ },
+ {
+  "erd": "PDS000233825.1",
+  "ours": [
+   "SAMN48947196",
+   "SAMN48947198"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Algeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "162": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Algeria": 2
+  },
+  "epi": {
+   "environmental/other": 2
+  }
+ },
+ {
+  "erd": "PDS000233821.2",
+  "ours": [
+   "SAMN48947187",
+   "SAMN48947197"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Algeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "189": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Algeria": 2
+  },
+  "epi": {
+   "environmental/other": 2
+  }
+ },
+ {
+  "erd": "PDS000203948.1",
+  "ours": [
+   "SAMN34441004",
+   "SAMEA112238986"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Nigeria": 2
+  },
+  "sectors": {
+   "Human": 2
+  },
+  "sts": {
+   "484": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Nigeria": 2
+  },
+  "epi": {
+   "clinical": 2
+  }
+ },
+ {
+  "erd": "PDS000066068.1",
+  "ours": [
+   "SAMN14929806",
+   "SAMN14898735"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Nigeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "191": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Nigeria": 2
+  },
+  "epi": {
+   "clinical": 2
+  }
+ },
+ {
+  "erd": "PDS000063560.2",
+  "ours": [
+   "SAMN14898732",
+   "SAMN14898734"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Nigeria": 2
+  },
+  "sectors": {
+   "Poultry": 2
+  },
+  "sts": {
+   "2485": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 10,
+  "mcr_pos": 2,
+  "geos": {
+   "": 8,
+   "Nigeria": 2
+  },
+  "epi": {
+   "": 8,
+   "clinical": 2
+  }
+ },
+ {
+  "erd": "PDS000225623.2",
+  "ours": [
+   "SAMN48947204"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "Algeria": 1
+  },
+  "sectors": {
+   "Poultry": 1
+  },
+  "sts": {
+   "155": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 4,
+  "mcr_pos": 1,
+  "geos": {
+   "Algeria": 1,
+   "Czech Republic": 1,
+   "Japan": 1,
+   "Kuwait": 1
+  },
+  "epi": {
+   "environmental/other": 1,
+   "": 2,
+   "clinical": 1
+  }
+ },
+ {
+  "erd": "PDS000219832.1",
+  "ours": [
+   "SAMEA114284974"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "Malawi": 1
+  },
+  "sectors": {
+   "Unspecified": 1
+  },
+  "sts": {
+   "69": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 5,
+  "mcr_pos": 1,
+  "geos": {
+   "Malawi": 5
+  },
+  "epi": {
+   "": 5
+  }
+ },
+ {
+  "erd": "PDS000187145.4",
+  "ours": [
+   "SAMN40756789"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "Niger": 1
+  },
+  "sectors": {
+   "Human": 1
+  },
+  "sts": {
+   "167": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 51,
+  "mcr_pos": 1,
+  "geos": {
+   "Niger": 51
+  },
+  "epi": {
+   "clinical": 51
+  }
+ },
+ {
+  "erd": "PDS000180804.1",
+  "ours": [
+   "SAMEA115084356"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "Tanzania": 1
+  },
+  "sectors": {
+   "Human": 1
+  },
+  "sts": {
+   "206": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "China": 1,
+   "Tanzania": 1
+  },
+  "epi": {
+   "": 1,
+   "clinical": 1
+  }
+ },
+ {
+  "erd": "PDS000080015.2",
+  "ours": [
+   "SAMEA7177508"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "Ethiopia": 1
+  },
+  "sectors": {
+   "Unspecified": 1
+  },
+  "sts": {
+   "410": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 18,
+  "mcr_pos": 1,
+  "geos": {
+   "Ethiopia": 18
+  },
+  "epi": {
+   "clinical": 1,
+   "": 17
+  }
+ },
+ {
+  "erd": "PDS000268214.12",
+  "ours": [
+   "SAMN11388480"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "Egypt": 1
+  },
+  "sectors": {
+   "Human": 1
+  },
+  "sts": {
+   "410": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 920,
+  "mcr_pos": 3,
+  "geos": {
+   "": 194,
+   "Malawi": 147,
+   "France": 142,
+   "China": 63,
+   "United Kingdom": 48,
+   "USA": 25
+  },
+  "epi": {
+   "": 364,
+   "clinical": 552,
+   "environmental/other": 4
+  }
+ }
+]

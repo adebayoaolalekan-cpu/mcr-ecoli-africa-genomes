@@ -1,0 +1,243 @@
+{
+ "a_galaxy_workflow": "true",
+ "annotation": "",
+ "comments": [],
+ "format-version": "0.1",
+ "name": "mcr Africa typing",
+ "steps": {
+  "0": {
+   "annotation": "",
+   "content_id": null,
+   "errors": null,
+   "id": 0,
+   "input_connections": {},
+   "inputs": [
+    {
+     "description": "",
+     "name": "Input Dataset Collection"
+    }
+   ],
+   "label": "Input Dataset Collection",
+   "name": "Input dataset collection",
+   "outputs": [],
+   "position": {
+    "left": 0,
+    "top": 0
+   },
+   "tool_id": null,
+   "tool_state": "{\"optional\": false, \"tag\": null, \"collection_type\": \"list\", \"fields\": null, \"column_definitions\": null}",
+   "tool_version": null,
+   "type": "data_collection_input",
+   "uuid": "a07bf3ce-0fc9-4b77-ba9d-cf5a7f6571df",
+   "when": null,
+   "workflow_outputs": []
+  },
+  "1": {
+   "annotation": "",
+   "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/amrfinderplus/amrfinderplus/4.2.7+galaxy0",
+   "errors": null,
+   "id": 1,
+   "input_connections": {
+    "input_option|input_mode|nucleotide_input": {
+     "id": 0,
+     "output_name": "output"
+    }
+   },
+   "inputs": [],
+   "label": null,
+   "name": "AMRFinderPlus",
+   "outputs": [
+    {
+     "name": "amrfinderplus_report",
+     "type": "tabular"
+    },
+    {
+     "name": "nucleotide_output",
+     "type": "fasta"
+    }
+   ],
+   "position": {
+    "left": 220,
+    "top": 0
+   },
+   "post_job_actions": {},
+   "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/amrfinderplus/amrfinderplus/4.2.7+galaxy0",
+   "tool_shed_repository": {
+    "changeset_revision": "96112e4c5e26",
+    "name": "amrfinderplus",
+    "owner": "iuc",
+    "tool_shed": "toolshed.g2.bx.psu.edu"
+   },
+   "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input_option\": {\"amrfinder_db_select\": \"amrfinderplus_V4.2_2026-05-15.1\", \"input_mode\": {\"input_select\": \"nucleotide\", \"__current_case__\": 0, \"nucleotide_input\": {\"__class__\": \"ConnectedValue\"}, \"nucleotide_flank5_size\": \"0\"}}, \"input_option|input_mode|nucleotide_input|__identifier__\": \"GCA_988286365.1\", \"options\": {\"ident_min\": \"-1.0\", \"coverage_min\": \"0.5\", \"translation_table\": \"11\", \"plus\": true, \"report_all_equal\": false, \"print_node\": false, \"name\": null, \"add_version_columns\": false}, \"organism_options\": {\"organism_conditionnal\": {\"organism_select\": \"add_organism\", \"__current_case__\": 0, \"organism\": \"Escherichia\", \"mutation_all\": false, \"report_common\": false}}, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+   "tool_uuid": null,
+   "tool_version": "4.2.7+galaxy0",
+   "type": "tool",
+   "uuid": "550aa153-7e98-408a-ae0e-b3a7606f870d",
+   "when": null,
+   "workflow_outputs": []
+  },
+  "2": {
+   "annotation": "",
+   "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/abricate/abricate/1.4.0+galaxy1",
+   "errors": null,
+   "id": 2,
+   "input_connections": {
+    "file_input": {
+     "id": 0,
+     "output_name": "output"
+    }
+   },
+   "inputs": [],
+   "label": null,
+   "name": "ABRicate",
+   "outputs": [
+    {
+     "name": "report",
+     "type": "tabular"
+    }
+   ],
+   "position": {
+    "left": 220,
+    "top": 120
+   },
+   "post_job_actions": {},
+   "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/abricate/abricate/1.4.0+galaxy1",
+   "tool_shed_repository": {
+    "changeset_revision": "d8b0de0554a9",
+    "name": "abricate",
+    "owner": "iuc",
+    "tool_shed": "toolshed.g2.bx.psu.edu"
+   },
+   "tool_state": "{\"__input_ext\": \"input\", \"adv\": {\"db\": \"ncbi\", \"no_header\": false, \"min_dna_id\": \"80.0\", \"min_cov\": \"80.0\"}, \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"file_input\": {\"__class__\": \"ConnectedValue\"}, \"file_input|__identifier__\": \"GCA_988286365.1\", \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+   "tool_uuid": null,
+   "tool_version": "1.4.0+galaxy1",
+   "type": "tool",
+   "uuid": "b63fcd73-bbc3-40bc-9b75-d671c5364b51",
+   "when": null,
+   "workflow_outputs": []
+  },
+  "3": {
+   "annotation": "",
+   "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/abricate/abricate/1.4.0+galaxy1",
+   "errors": null,
+   "id": 3,
+   "input_connections": {
+    "file_input": {
+     "id": 0,
+     "output_name": "output"
+    }
+   },
+   "inputs": [],
+   "label": null,
+   "name": "ABRicate",
+   "outputs": [
+    {
+     "name": "report",
+     "type": "tabular"
+    }
+   ],
+   "position": {
+    "left": 220,
+    "top": 240
+   },
+   "post_job_actions": {},
+   "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/abricate/abricate/1.4.0+galaxy1",
+   "tool_shed_repository": {
+    "changeset_revision": "d8b0de0554a9",
+    "name": "abricate",
+    "owner": "iuc",
+    "tool_shed": "toolshed.g2.bx.psu.edu"
+   },
+   "tool_state": "{\"__input_ext\": \"input\", \"adv\": {\"db\": \"resfinder\", \"no_header\": false, \"min_dna_id\": \"80.0\", \"min_cov\": \"80.0\"}, \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"file_input\": {\"__class__\": \"ConnectedValue\"}, \"file_input|__identifier__\": \"GCA_988286365.1\", \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+   "tool_uuid": null,
+   "tool_version": "1.4.0+galaxy1",
+   "type": "tool",
+   "uuid": "211ef02f-1d9a-434e-bab5-c100497da682",
+   "when": null,
+   "workflow_outputs": []
+  },
+  "4": {
+   "annotation": "",
+   "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/abricate/abricate/1.4.0+galaxy1",
+   "errors": null,
+   "id": 4,
+   "input_connections": {
+    "file_input": {
+     "id": 0,
+     "output_name": "output"
+    }
+   },
+   "inputs": [],
+   "label": null,
+   "name": "ABRicate",
+   "outputs": [
+    {
+     "name": "report",
+     "type": "tabular"
+    }
+   ],
+   "position": {
+    "left": 220,
+    "top": 360
+   },
+   "post_job_actions": {},
+   "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/abricate/abricate/1.4.0+galaxy1",
+   "tool_shed_repository": {
+    "changeset_revision": "d8b0de0554a9",
+    "name": "abricate",
+    "owner": "iuc",
+    "tool_shed": "toolshed.g2.bx.psu.edu"
+   },
+   "tool_state": "{\"__input_ext\": \"input\", \"adv\": {\"db\": \"plasmidfinder\", \"no_header\": false, \"min_dna_id\": \"95.0\", \"min_cov\": \"60.0\"}, \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"file_input\": {\"__class__\": \"ConnectedValue\"}, \"file_input|__identifier__\": \"GCA_988286365.1\", \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+   "tool_uuid": null,
+   "tool_version": "1.4.0+galaxy1",
+   "type": "tool",
+   "uuid": "afe1a32d-aca6-4b7c-a379-31ef4ad26c22",
+   "when": null,
+   "workflow_outputs": []
+  },
+  "5": {
+   "annotation": "",
+   "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/mlst/mlst/2.22.0",
+   "errors": null,
+   "id": 5,
+   "input_connections": {
+    "input_files": {
+     "id": 0,
+     "output_name": "output"
+    }
+   },
+   "inputs": [],
+   "label": null,
+   "name": "MLST",
+   "outputs": [
+    {
+     "name": "report",
+     "type": "tabular"
+    }
+   ],
+   "position": {
+    "left": 220,
+    "top": 480
+   },
+   "post_job_actions": {},
+   "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/mlst/mlst/2.22.0",
+   "tool_shed_repository": {
+    "changeset_revision": "ef1966bcece3",
+    "name": "mlst",
+    "owner": "iuc",
+    "tool_shed": "toolshed.g2.bx.psu.edu"
+   },
+   "tool_state": "{\"__input_ext\": \"fasta\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input_files\": {\"__class__\": \"ConnectedValue\"}, \"input_files1|__identifier__\": \"GCA_988286365.1\", \"input_files|__identifier__\": \"GCA_988286365.1\", \"settings\": {\"advanced\": \"advanced\", \"__current_case__\": 1, \"minid\": \"95\", \"mincov\": \"10\", \"novel\": false, \"scheme_condition\": {\"set_scheme\": \"list\", \"__current_case__\": 1, \"scheme\": \"ecoli_achtman_4\", \"legacy\": true}}, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+   "tool_uuid": null,
+   "tool_version": "2.22.0",
+   "type": "tool",
+   "uuid": "e7531743-cf07-488a-bcba-46fbd5dd43d8",
+   "when": null,
+   "workflow_outputs": []
+  }
+ },
+ "tags": [],
+ "uuid": "1eed779e-6124-467c-b7fb-be6d2b62a646",
+ "version": 1
+}

@@ -1,0 +1,119 @@
+BioSample,gid,gene,rep,evid,mcrlen,tier
+SAMEA123453495,GCA_988286365.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMEA115598817,ERR13133321,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMEA115598777,ERR13133281,mcr-1,Chromosomal or unresolved,MOB-Recon,2750.0,T4 MOB-Recon contig <5 kb
+SAMN54240895,GCA_056837985.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN54240896,GCA_056837925.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN54240897,GCA_056837905.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN54240898,GCA_056837885.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN54240899,GCA_056837865.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN54240900,GCA_056837825.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN57053898,GCA_056711405.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN47585712,GCA_055786625.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN47585716,GCA_055786575.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN47585720,GCA_055786505.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMEA120781931,GCA_977857605.1,mcr-1,Other plasmid,MOB-Recon,59859.0,T3 MOB-Recon contig >=5 kb
+SAMN53123345,SRR35975911,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN53123346,SRR35975910,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN54331487,GCA_054353075.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMEA115952006,ERR15952774,mcr-9,IncHI2,MOB-Recon,2627.0,T4 MOB-Recon contig <5 kb
+SAMN49661573,GCA_053291725.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN44571232,GCA_053044365.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN44571233,GCA_053044345.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN44571236,GCA_053044255.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN44571234,GCA_053044235.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN44571235,GCA_053044225.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN47596258,SRR32899019,mcr-1,IncHI2,MOB-Recon,1761.0,T4 MOB-Recon contig <5 kb
+SAMN47596259,SRR32899008,mcr-1,IncHI2,MOB-Recon,1761.0,T4 MOB-Recon contig <5 kb
+SAMN47596263,SRR32898997,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN47476602,GCA_051305755.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947222,GCA_050939535.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947229,GCA_050939515.1,mcr-1,IncI2,MOB-Recon,23976.0,T3 MOB-Recon contig >=5 kb
+SAMN48947223,GCA_050939415.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947225,GCA_050939375.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947216,GCA_050939335.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947220,GCA_050939315.1,mcr-1,IncI2,MOB-Recon,12719.0,T3 MOB-Recon contig >=5 kb
+SAMN48947210,GCA_050939295.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947221,GCA_050939235.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947182,GCA_050939215.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947184,GCA_050939195.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947181,GCA_050939175.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947185,GCA_050939155.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947234,GCA_050939135.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947233,GCA_050939115.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947213,GCA_050939075.1,mcr-1,IncI2,MOB-Recon,12726.0,T3 MOB-Recon contig >=5 kb
+SAMN48947215,GCA_050939055.1,mcr-1,IncI2,MOB-Recon,12730.0,T3 MOB-Recon contig >=5 kb
+SAMN48947203,GCA_050939035.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947209,GCA_050939015.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947207,GCA_050938975.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947193,GCA_050938935.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947196,GCA_050938885.1,mcr-1,IncI2,MOB-Recon,38260.0,T3 MOB-Recon contig >=5 kb
+SAMN48947199,GCA_050938875.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947201,GCA_050938855.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947202,GCA_050938835.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947195,GCA_050938815.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947205,GCA_050938795.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947204,GCA_050938775.1,mcr-1,IncI2,MOB-Recon,13233.0,T3 MOB-Recon contig >=5 kb
+SAMN48947200,GCA_050938755.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947206,GCA_050938735.1,mcr-1,IncI2,MOB-Recon,2901.0,T4 MOB-Recon contig <5 kb
+SAMN48947212,GCA_050938595.1,mcr-1,IncI2,MOB-Recon,10389.0,T3 MOB-Recon contig >=5 kb
+SAMN48947214,GCA_050938575.1,mcr-1,IncI2,MOB-Recon,24710.0,T3 MOB-Recon contig >=5 kb
+SAMN48947183,GCA_050938555.1,mcr-1,IncI2,MOB-Recon,9399.0,T3 MOB-Recon contig >=5 kb
+SAMN48947189,GCA_050938535.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947187,GCA_050938515.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947190,GCA_050938495.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947192,GCA_050938475.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947197,GCA_050938435.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947194,GCA_050938415.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48947198,GCA_050938395.1,mcr-1,IncI2,Same contig,,T2 same contig (draft)
+SAMN48122305,GCA_050106675.1,mcr-9,Chromosomal or unresolved,MOB-Recon,7869.0,T3 MOB-Recon contig >=5 kb
+SAMEA114285223,ERR13952704,mcr-9,IncHI2,MOB-Recon,86239.0,T3 MOB-Recon contig >=5 kb
+SAMEA114284974,ERR13952550,mcr-9,IncHI2,MOB-Recon,2627.0,T4 MOB-Recon contig <5 kb
+SAMN44530435,GCA_045037815.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN40756789,SRR33015174,mcr-1,Chromosomal or unresolved,MOB-Recon,857.0,T4 MOB-Recon contig <5 kb
+SAMEA115084356,ERR12409409,mcr-10,Other plasmid,MOB-Recon,3681.0,T4 MOB-Recon contig <5 kb
+SAMN38019464,GCA_033342895.1,mcr-1,IncHI2,Same contig,,T2 same contig (draft)
+SAMN35358213,SRR24834186,mcr-1,Mixed MOB-Recon bin,MOB-Recon,5484.0,T3 MOB-Recon contig >=5 kb
+SAMN33246729,GCA_028882105.2,mcr-1,IncHI2,Same contig,,T2 same contig (draft)
+SAMN34441004,GCA_029953225.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN13191328,SRR10392137,mcr-1,IncI2,MOB-Recon,23221.0,T3 MOB-Recon contig >=5 kb
+SAMD00328572,DRR300284,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMD00328569,DRR300282,mcr-1,Other plasmid,MOB-Recon,4295.0,T4 MOB-Recon contig <5 kb
+SAMEA112238986,ERR10670898,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMEA112238980,ERR10670886,mcr-1,IncHI2,MOB-Recon,39415.0,T3 MOB-Recon contig >=5 kb
+SAMN16293355,GCA_020281985.1,mcr-1,Mixed MOB-Recon bin,MOB-Recon,23912.0,T3 MOB-Recon contig >=5 kb
+SAMEA8550478,ERR5696778,mcr-9,IncHI2,MOB-Recon,2627.0,T4 MOB-Recon contig <5 kb
+SAMEA8550450,ERR5696750,mcr-9,IncHI2,MOB-Recon,2627.0,T4 MOB-Recon contig <5 kb
+SAMN17183229,SRR13376017,mcr-1,IncHI2,MOB-Recon,97045.0,T3 MOB-Recon contig >=5 kb
+SAMEA7177508,ERR4452414,mcr-9,IncHI2,MOB-Recon,2526.0,T4 MOB-Recon contig <5 kb
+SAMN16064910,GCA_014900955.1,mcr-1,IncHI2,MOB-Recon,46466.0,T3 MOB-Recon contig >=5 kb
+SAMN16064908,GCA_014900945.1,mcr-1,IncHI2,Same contig,,T2 same contig (draft)
+SAMN16064909,GCA_014900915.1,mcr-1,IncHI2,Same contig,,T2 same contig (draft)
+SAMN16064911,GCA_014900925.1,mcr-1,IncHI2,MOB-Recon,41463.0,T3 MOB-Recon contig >=5 kb
+SAMN16064912,GCA_014900935.1,mcr-1,IncHI2,MOB-Recon,60960.0,T3 MOB-Recon contig >=5 kb
+SAMN14929804,GCA_013618615.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN14929806,GCA_013618585.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN14898735,GCA_013187515.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN14898732,GCA_013187505.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN14898734,GCA_013187405.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN13107363,GCA_009925515.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN13107361,GCA_009925505.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN13107364,GCA_009925485.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN13107345,GCA_009925195.1,mcr-1,Mixed MOB-Recon bin,MOB-Recon,21673.0,T3 MOB-Recon contig >=5 kb
+SAMN13107349,GCA_009925175.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN13107350,GCA_009925165.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN13107346,GCA_009925145.1,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN12501891,GCA_007993675.2,mcr-1,IncI2,Same contig,,T1 closed/complete
+SAMN13245793,SRR10420728,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN12727826,SRR10098861,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN06928087,SRR5688544,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN06909729,SRR5688554,mcr-1,IncHI2,MOB-Recon,48227.0,T3 MOB-Recon contig >=5 kb
+SAMN06909728,SRR5688556,mcr-1,IncHI2,MOB-Recon,85159.0,T3 MOB-Recon contig >=5 kb
+SAMN10986378,SRR8610355,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN10986384,SRR8610343,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN10986379,SRR8610327,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN11553647,SRR9099603,mcr-1,IncI2,MOB-Recon,2863.0,T4 MOB-Recon contig <5 kb
+SAMN11553648,GCA_006348965.1,mcr-1,Mixed MOB-Recon bin,MOB-Recon,46544.0,T3 MOB-Recon contig >=5 kb
+SAMN11388480,SRR8885624,mcr-9,Other plasmid,MOB-Recon,9268.0,T3 MOB-Recon contig >=5 kb
+SAMN10986381,SRR8610346,mcr-1,IncX4,Same contig,,T2 same contig (draft)
+SAMN06928086,SRR5688555,mcr-1,IncHI2,MOB-Recon,101777.0,T3 MOB-Recon contig >=5 kb

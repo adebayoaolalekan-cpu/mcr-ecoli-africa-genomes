@@ -1,0 +1,8 @@
+VFDB (ABRicate, VFDB database) species confirmation of three genomes with non-E.-coli submitted names.
+Marker logic: Shigella/EIEC carry the invasion plasmid T3SS (ipaH, ipaBCD, ipgD, icsA, icsB, virA/virB, mxi, spa). Absence of all these plus presence of commensal/ExPEC E. coli factors (ompA, csg curli operon, ecp pilus, fdeC, fimH) indicates E. coli, not Shigella.
+
+SAMN34441004 / GCA_029953225.1 (submitted "Shigella sonnei", Nigeria): 93 VFDB hits; invasion markers = NONE; E. coli factors = csgABC, ompA, fdeC, ecpR/ecpA/ecpB. -> E. coli.
+SAMEA112238986 / ERR10670898 (submitted "Shigella sonnei", Nigeria): 90 VFDB hits; invasion markers = NONE; E. coli factors = ompA, csgABC, fdeC, ecp. -> E. coli.
+SAMN11388480 / SRR8885624 (submitted "Escherichia coli K-12", Egypt; carries mcr-9.2): 86 VFDB hits; invasion markers = NONE; E. coli factors = fimH, ompA, csgABC, ecp. -> E. coli.
+
+Conclusion: all three retained as E. coli. The two "Shigella sonnei" submissions lack ipaH and the entire invasion locus, so they are E. coli by VFDB. VFDB tool: ABRicate 1.4.0 against VFDB.

@@ -1,0 +1,39 @@
+Host (as submitted),Isolation source (as submitted),Sector (derived),Poultry niche (derived),n
+Felis catus,cat,Other animal,,3
+Gallus gallus,"backyard farm #12, cloacal swab # 23",Poultry,Live bird (faeces/cloaca/organ),1
+Gallus gallus,"backyard farm #18, cloacal swab # 27",Poultry,Live bird (faeces/cloaca/organ),1
+Gallus gallus,"backyard farm #18, cloacal swab # 29",Poultry,Live bird (faeces/cloaca/organ),1
+Gallus gallus,"backyard farm #26, liver # 39",Poultry,Live bird (faeces/cloaca/organ),1
+Gallus gallus,"backyard farm #30, cloacal swab # 40",Poultry,Live bird (faeces/cloaca/organ),1
+Gallus gallus domesticus,stool,Poultry,Live bird (faeces/cloaca/organ),1
+Gallus gallus domesticus ISA15,,Poultry,Live bird (faeces/cloaca/organ),1
+Homo sapiens,HVS,Human,,1
+Homo sapiens,Rectal Swab,Human,,2
+Homo sapiens,aspirate,Human,,1
+Homo sapiens,feces,Human,,1
+Homo sapiens,human,Human,,2
+Homo sapiens,prosthetic joint infection,Human,,1
+Homo sapiens,rectal,Human,,1
+Homo sapiens,rectal swab,Human,,2
+Homo sapiens,stool,Human,,1
+Homo sapiens,urinary catheter,Human,,1
+Homo sapiens,urine,Human,,1
+Homo sapiens,wound,Human,,2
+Homo sapiens,,Human,,14
+Poultry,swab,Poultry,Live bird (faeces/cloaca/organ),5
+Sturnus vulgaris,,Other animal,,1
+chicken,carcass,Poultry,Poultry meat/carcass,1
+chicken,feces,Poultry,Live bird (faeces/cloaca/organ),5
+meat,,Food (non-poultry),,1
+,Bathing waters,Environment,,2
+,Poultry farm,Poultry,Poultry farm environment,39
+,SAUSAGE,Food (non-poultry),,1
+,chicken meat,Poultry,Poultry meat/carcass,3
+,chicken offal,Poultry,Poultry meat/carcass,1
+,meat,Food (non-poultry),,2
+,poultry water,Poultry,Poultry drinking water,1
+,raw milk cheese,Food (non-poultry),,4
+,rectal swab,Unspecified,,2
+,stool,Unspecified,,4
+,wastewater,Environment,,1
+,,Unspecified,,5
