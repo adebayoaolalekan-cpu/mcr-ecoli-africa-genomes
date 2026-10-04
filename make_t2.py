@@ -1,9 +1,9 @@
-import sys; sys.path.insert(0,'.')
+import sys, os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from base import load
 import pandas as pd, json
 d=load()
 clen={}
-for l in open('../recon/galaxy_typing.tsv'):
+for l in open('galaxy_typing.tsv'):
     p=l.rstrip().split('\t')
     if p[0]=='B': clen[p[1]]=int(p[8])
 d['mcrlen']=d['Galaxy input ID'].map(clen)
@@ -34,7 +34,7 @@ for r in order:
 n=len(d)
 rows.append(['Total',f"{n} (100)"]+[str((d.tier==t).sum()) for t in ['T1','T2','T3','T4']]+
             [str((d['var']==v).sum()) for v in vorder])
-T=json.load(open('/home/claude/ms/tables.json'))
+T=json.load(open('tables.json'))
 T['T2']=rows
-json.dump(T,open('/home/claude/ms/tables.json','w'),indent=0)
+json.dump(T,open('tables.json','w'),indent=0)
 for x in rows: print(x)

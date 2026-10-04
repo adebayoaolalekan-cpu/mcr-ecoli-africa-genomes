@@ -2,7 +2,7 @@ from base import *
 d=load()
 # mcr contig length for the 39 MOB-Recon assignments
 clen={}
-for l in open('../recon/galaxy_typing.tsv'):
+for l in open('galaxy_typing.tsv'):
     p=l.rstrip().split('\t')
     if p[0]=='B': clen[p[1]]=int(p[8])
 # map Galaxy input id -> contig length

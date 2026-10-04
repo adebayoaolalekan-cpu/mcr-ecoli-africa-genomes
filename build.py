@@ -196,5 +196,5 @@ for t in ['Galaxy run (October 2026)',
           'Tools on usegalaxy.eu: fasterq-dump 3.1.1, fastp 1.3.7 (Q20, min length 50), Shovill 1.4.2 (SPAdes, 5.1M, depth 100, min contig 200), QUAST 5.3.0, NCBI Datasets 18.33.1, AMRFinderPlus 4.2.7 (database V4.2-2026-05-15.1, organism Escherichia, plus genes on), ABRicate 1.4.0 (NCBI and ResFinder 80/80, PlasmidFinder 95/60), MLST 2.22.0 (ecoli_achtman_4), MOB-Recon 3.1.9.',
           'Galaxy_results: QC, mcr call, mcr contig, replicon linkage and MLST for each of the 118 genomes. Yellow columns in Isolates were filled from this sheet.']:
     rd.cell(rr,1,t).font=Font(name='Arial',bold=(t.startswith('Galaxy run'))); rr+=1
-wb.save('/mnt/user-data/outputs/African_mcr_Ecoli_NCBI_dataset_Galaxy_results.xlsx')
+wb.save('African_mcr_Ecoli_NCBI_dataset_Galaxy_results.xlsx')
 print('done', len(det), sts)

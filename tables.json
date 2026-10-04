@@ -1,0 +1,417 @@
+{
+"T1": [
+[
+"Country",
+"Poultry",
+"Human",
+"Food (non-poultry)",
+"Other animal",
+"Environment",
+"Unspecified",
+"Total"
+],
+[
+"Algeria",
+"40",
+"0",
+"0",
+"3",
+"2",
+"1",
+"46"
+],
+[
+"Egypt",
+"6",
+"7",
+"5",
+"0",
+"0",
+"0",
+"18"
+],
+[
+"Tunisia",
+"0",
+"10",
+"3",
+"1",
+"0",
+"0",
+"14"
+],
+[
+"Nigeria",
+"6",
+"6",
+"0",
+"0",
+"0",
+"0",
+"12"
+],
+[
+"Tanzania",
+"3",
+"5",
+"0",
+"0",
+"0",
+"4",
+"12"
+],
+[
+"Uganda",
+"5",
+"0",
+"0",
+"0",
+"0",
+"0",
+"5"
+],
+[
+"Malawi",
+"0",
+"0",
+"0",
+"0",
+"0",
+"3",
+"3"
+],
+[
+"Morocco",
+"1",
+"0",
+"0",
+"0",
+"1",
+"0",
+"2"
+],
+[
+"Rwanda",
+"0",
+"0",
+"0",
+"0",
+"0",
+"2",
+"2"
+],
+[
+"Ethiopia",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1",
+"1"
+],
+[
+"Cameroon",
+"1",
+"0",
+"0",
+"0",
+"0",
+"0",
+"1"
+],
+[
+"Niger",
+"0",
+"1",
+"0",
+"0",
+"0",
+"0",
+"1"
+],
+[
+"Togo",
+"0",
+"1",
+"0",
+"0",
+"0",
+"0",
+"1"
+],
+[
+"Total",
+"62",
+"30",
+"8",
+"4",
+"3",
+"11",
+"118"
+]
+],
+"T2": [
+[
+"Replicon linked to mcr",
+"n (%)",
+"Closed",
+"Same contig",
+"MOB \u2265 5 kb",
+"MOB < 5 kb",
+"mcr-1.1",
+"mcr-1 (no allele)",
+"mcr-1.5",
+"mcr-9 group",
+"mcr-10.1"
+],
+[
+"IncI2",
+"59 (50.0)",
+"1",
+"46",
+"10",
+"2",
+"57",
+"0",
+"2",
+"0",
+"0"
+],
+[
+"IncX4",
+"28 (23.7)",
+"0",
+"28",
+"0",
+"0",
+"27",
+"1",
+"0",
+"0",
+"0"
+],
+[
+"IncHI2",
+"20 (16.9)",
+"0",
+"4",
+"9",
+"7",
+"12",
+"2",
+"0",
+"6",
+"0"
+],
+[
+"Mixed MOB-Recon bin",
+"4 (3.4)",
+"0",
+"0",
+"4",
+"0",
+"3",
+"1",
+"0",
+"0",
+"0"
+],
+[
+"Other plasmid",
+"4 (3.4)",
+"0",
+"0",
+"2",
+"2",
+"2",
+"0",
+"0",
+"1",
+"1"
+],
+[
+"Chromosomal or unresolved",
+"3 (2.5)",
+"0",
+"0",
+"1",
+"2",
+"1",
+"1",
+"0",
+"1",
+"0"
+],
+[
+"Total",
+"118 (100)",
+"1",
+"78",
+"26",
+"13",
+"102",
+"5",
+"2",
+"8",
+"1"
+]
+],
+"T3": [
+[
+"ST",
+"n",
+"Countries",
+"Sectors",
+"Replicon linked to mcr"
+],
+[
+"ST155",
+"10",
+"Uganda (5), Algeria (2), Egypt (2), Tanzania (1)",
+"poultry (8), unspecified (1), environment (1)",
+"IncI2 (6), IncHI2 (2), Mixed MOB-Recon bin (2)"
+],
+[
+"ST46",
+"9",
+"Tanzania (9)",
+"human (4), unspecified (3), poultry (2)",
+"IncX4 (9)"
+],
+[
+"ST10",
+"8",
+"Egypt (4), Algeria (2), Morocco (1), Nigeria (1)",
+"poultry (5), other animal (1), environment (1), food (1)",
+"IncHI2 (4), IncI2 (3), IncX4 (1)"
+],
+[
+"ST162",
+"8",
+"Algeria (8)",
+"poultry (6), other animal (2)",
+"IncI2 (8)"
+],
+[
+"ST117",
+"4",
+"Algeria (2), Tunisia (1), Egypt (1)",
+"human (2), poultry (2)",
+"IncI2 (3), IncHI2 (1)"
+],
+[
+"ST224",
+"4",
+"Tunisia (1), Algeria (1), Egypt (1), Tanzania (1)",
+"poultry (3), human (1)",
+"IncI2 (2), Mixed MOB-Recon bin (1), IncX4 (1)"
+],
+[
+"ST616",
+"4",
+"Algeria (4)",
+"poultry (4)",
+"IncI2 (4)"
+],
+[
+"ST3941",
+"4",
+"Tunisia (2), Algeria (2)",
+"food (2), poultry (2)",
+"IncHI2 (2), IncI2 (2)"
+],
+[
+"ST69",
+"3",
+"Tunisia (1), Malawi (1), Egypt (1)",
+"human (1), unspecified (1), food (1)",
+"IncHI2 (2), IncI2 (1)"
+],
+[
+"ST93",
+"3",
+"Algeria (3)",
+"poultry (3)",
+"IncI2 (3)"
+],
+[
+"ST101",
+"3",
+"Algeria (2), Egypt (1)",
+"poultry (2), food (1)",
+"IncI2 (3)"
+],
+[
+"ST410",
+"3",
+"Algeria (1), Ethiopia (1), Egypt (1)",
+"unspecified (2), human (1)",
+"IncI2 (1), IncHI2 (1), Other plasmid (1)"
+],
+[
+"ST744",
+"3",
+"Algeria (1), Egypt (1), Nigeria (1)",
+"poultry (2), human (1)",
+"IncX4 (2), IncI2 (1)"
+],
+[
+"ST1011",
+"3",
+"Tunisia (2), Egypt (1)",
+"human (3)",
+"IncX4 (2), Other plasmid (1)"
+]
+],
+"T4": [
+[
+"Analysis",
+"Genomes",
+"IncI2 n (%)",
+"IncX4 n (%)",
+"IncHI2 n (%)",
+"Other n"
+],
+[
+"All genomes",
+"118",
+"59 (50.0)",
+"28 (23.7)",
+"20 (16.9)",
+"11"
+],
+[
+"Excluding the 39-genome Algerian submission (PRJNA1273464)",
+"79",
+"20 (25.3)",
+"28 (35.4)",
+"20 (25.3)",
+"11"
+],
+[
+"Weighted by inverse BioProject size",
+"37",
+"10 (27.6)",
+"10 (25.5)",
+"9 (23.2)",
+"9"
+],
+[
+"One genome per BioProject (modal replicon)",
+"37",
+"11 (29.7)",
+"10 (27.0)",
+"9 (24.3)",
+"7"
+],
+[
+"One genome per SNP cluster",
+"89",
+"44 (49.4)",
+"17 (19.1)",
+"17 (19.1)",
+"11"
+]
+]
+}

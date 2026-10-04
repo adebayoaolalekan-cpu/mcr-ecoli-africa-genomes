@@ -2,7 +2,8 @@ import re, collections
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
-F='/mnt/user-data/outputs/African_mcr_Ecoli_NCBI_dataset_Galaxy_results.xlsx'
+import os
+F=os.environ.get('MCR_WORKBOOK','Supplementary_Table_S1_per_genome_results.xlsx')
 rows=[l.rstrip('\n').split('\t') for l in open('galaxy_typing.tsv') if l.strip()]
 A=collections.defaultdict(list); P=collections.defaultdict(list); M={}; B={}
 for r in rows:

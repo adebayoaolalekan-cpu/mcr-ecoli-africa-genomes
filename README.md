@@ -1,73 +1,77 @@
 # mcr-positive *Escherichia coli* from Africa in NCBI Pathogen Detection
 
-Analysis code and intermediate data for the study of plasmid replicon types and
-sequence types of *mcr*-positive *E. coli* genomes from Africa held in NCBI
-Pathogen Detection (118 genomes, 13 countries, 2005–2025).
+Analysis code and data for the study of plasmid replicon types and sequence
+types of *mcr*-positive *E. coli* genomes from Africa held in NCBI Pathogen
+Detection (118 genomes, 13 countries, 2005–2025).
 
-This repository lets a reader reproduce the summary tables, the figure, the
-sensitivity analyses, the evidence-level grading and the SNP-cluster analysis
-from the per-genome typing output. The primary typing was run on the public
-Galaxy server at https://usegalaxy.eu; the two workflows are described in
-`WORKFLOWS.md`.
+Everything needed to regenerate the manuscript's tables, figure, sensitivity
+analyses and evidence grading from the per-genome typing output is in this one
+directory. The primary typing was run on the public Galaxy server at
+https://usegalaxy.eu; the two workflows are included as `.ga` files and
+described in `WORKFLOWS.md`.
 
-## Layout
-
-```
-scripts/   Python scripts that build the tables, figure and analyses
-data/      per-genome typing output and intermediate tables
-```
-
-### scripts
-- `base.py` – loads the per-genome results workbook and derives replicon
-  categories, evidence source and *mcr* gene group.
-- `recon.py`, `rebuild.py` – rebuild the results sheet from the Galaxy outputs
-  and reconcile every filled cell against its source (0 discrepancies).
-- `sens.py` – sensitivity of the replicon distribution to uneven sampling
-  (exclude the large Algerian submission, inverse-BioProject weighting, one
-  genome per BioProject, one genome per SNP cluster).
-- `tiers.py` – four-level evidence grading of each replicon assignment.
-- `desc.py` – distribution by year and the host/source to sector mapping.
-- `figure.py` – Figure 1 (replicon by sector and by country, MOB-derived
-  segments hatched).
-- `make_t4.py`, `supp.py` – build Table 4 and Supplementary Tables S2–S6.
-- `analyze.py`, `build.py`, `pd_parse.py` – helper scripts used during the
-  original analysis and the Pathogen Detection metadata parse.
-
-### data
-- `compactA.tsv`, `compactB.tsv` – AMRFinderPlus, PlasmidFinder, ABRicate and
-  MLST calls per genome (arm A reads, arm B deposited assemblies).
-- `mob_A.tsv`, `mob_B.tsv` – MOB-Recon plasmid bins (molecule, primary cluster,
-  replicons, relaxase, bin size, *mcr* contig length).
-- `galaxy_typing.tsv`, `galaxy_qc.tsv` – reconciliation inputs.
-- `quast_A.tsv`, `quast_B.txt`, `fastp_A.tsv` – assembly QC.
-- `snp_clusters.json` – Pathogen Detection single-linkage SNP-cluster membership.
-- `sens.json`, `evidence_tiers.csv`, `sector_mapping.csv`,
-  `bioproject_summary.csv` – computed outputs.
-- `species_vfdb.txt` – VFDB species confirmation of the three genomes submitted
-  under a non-*E.-coli* name.
-
-## Reproducing
+## Quick start
 
 ```bash
 pip install pandas openpyxl matplotlib
-cd scripts
-python sens.py      # sensitivity analyses -> sens.json
-python tiers.py     # evidence levels -> evidence_tiers.csv
-python figure.py    # Figure 1
-python supp.py      # Supplementary Tables S2-S6
+python sens.py      # sensitivity of the replicon distribution to uneven sampling
+python tiers.py     # four-level evidence grading of each replicon assignment
+python make_t2.py   # Table 2 (replicon by evidence level and mcr variant)
+python make_t4.py   # Table 4 (replicon distribution under alternative sampling)
+python desc.py      # distribution by year, host/source to sector mapping
+python figure.py    # Figure 1 -> figure1.png
+python supp.py      # Supplementary Tables S2-S6 -> .xlsx
+python audit.py     # re-checks the manuscript's numbers against the data
 ```
 
-`base.py` expects the per-genome results workbook
-(`African_mcr_Ecoli_NCBI_dataset_Galaxy_results.xlsx`, Supplementary Table S1)
-in the path set at the top of the file.
+All eight run from this directory with no arguments and were verified to do so
+in a clean checkout. `audit.py` is the useful one for a reader who wants to
+confirm the paper: it re-derives the headline counts and prints a pass/fail line
+for each.
+
+## Files
+
+**Per-genome results**
+- `Supplementary_Table_S1_per_genome_results.xlsx` — the master table. One row
+  per genome with accessions, metadata, sector, *mcr* variant, sequence type,
+  replicon, evidence level, CheckM2 completeness and contamination, and the
+  IS30-family flag. Every script reads this. Override its location with the
+  `MCR_WORKBOOK` environment variable if you move it.
+
+**Typing output from Galaxy**
+- `compactA.tsv`, `compactB.tsv` — AMRFinderPlus, PlasmidFinder, ABRicate and
+  MLST calls per genome (arm A reads, arm B deposited assemblies).
+- `mob_A.tsv`, `mob_B.tsv` — MOB-Recon plasmid bins (molecule, primary cluster,
+  replicons, relaxase, bin size, *mcr* contig length).
+- `galaxy_typing.tsv`, `galaxy_qc.tsv` — reconciliation inputs.
+- `quast_A.tsv`, `quast_B.txt`, `fastp_A.tsv` — assembly QC.
+- `checkm2_isescan_raw.txt` — raw CheckM2 completeness and contamination, and
+  the ISEScan IS-family counts, per genome.
+- `species_vfdb.txt` — VFDB species confirmation of the three genomes submitted
+  under a non-*E.-coli* name.
+
+**Computed outputs** (regenerated by the scripts above)
+- `sens.json`, `evidence_tiers.csv`, `sector_mapping.csv`,
+  `bioproject_summary.csv`, `snp_clusters.json`, `tables.json`.
+
+**Galaxy workflows**
+- `mcr_Africa_read_to_assembly.ga`, `mcr_Africa_typing.ga` — import into any
+  Galaxy server.
+
+**Provenance scripts** (kept for transparency, not expected to run standalone)
+- `recon.py`, `rebuild.py` — rebuilt the results sheet from the Galaxy outputs
+  and reconciled every filled cell against its source, finding 0 discrepancies.
+- `build.py`, `analyze.py`, `add_checkm.py` — original build and annotation
+  steps. These ran against live Galaxy outputs during the analysis.
 
 ## Tool and database versions
 
 SRA Toolkit 3.1.1, fastp 1.3.7, Shovill 1.4.2 (SPAdes 3.15.5), QUAST 5.3.0,
 NCBI Datasets 18.33.1, CheckM2 1.1.0 (database 1.0.2),
-AMRFinderPlus 4.2.7 (reference gene database 2026-05-15.1; Pathogen Detection
-genotypes used 2026-03-24.1), ABRicate 1.4.0 (bundled NCBI, ResFinder and
-PlasmidFinder databases), mlst 2.22.0 (PubMLST *E. coli* Achtman scheme),
+AMRFinderPlus 4.2.7 (reference gene database 2026-05-15.1; the genotypes
+imported from Pathogen Detection used 2026-03-24.1), ABRicate 1.4.0 (bundled
+databases all built 2026-04-03: ncbi 8,232 sequences, resfinder 3,206,
+plasmidfinder 488, vfdb 4,592), mlst 2.22.0 (PubMLST *E. coli* Achtman scheme),
 MOB-suite 3.1.9, ISEScan 1.7.3, BLAST+ 2.16.0.
 
 ## Licence

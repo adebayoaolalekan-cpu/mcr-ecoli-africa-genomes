@@ -1,5 +1,6 @@
 import pandas as pd, re, json, collections
-F='/mnt/user-data/outputs/African_mcr_Ecoli_NCBI_dataset_Galaxy_results.xlsx'
+import os
+F=os.environ.get('MCR_WORKBOOK','Supplementary_Table_S1_per_genome_results.xlsx')
 def load():
     d=pd.read_excel(F,sheet_name='Isolates')
     d=d[d['BioSample'].notna()].copy()

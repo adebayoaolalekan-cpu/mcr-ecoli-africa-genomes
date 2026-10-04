@@ -10,7 +10,7 @@ T4.append(row('Excluding the 39-genome Algerian submission (PRJNA1273464)','excl
 T4.append(row('Weighted by inverse BioProject size','bioproject_weighted'))
 T4.append(row('One genome per BioProject (modal replicon)','one_per_bioproject_modal'))
 T4.append(row('One genome per SNP cluster','one_per_snp_cluster'))
-T=json.load(open('/home/claude/ms/tables.json'))
+T=json.load(open('tables.json'))
 T['T4']=T4
-json.dump(T,open('/home/claude/ms/tables.json','w'),indent=0)
+json.dump(T,open('tables.json','w'),indent=0)
 for r in T4: print(r)

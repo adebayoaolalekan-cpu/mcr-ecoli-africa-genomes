@@ -1,7 +1,7 @@
 import json, pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment
-import sys; sys.path.insert(0,'.')
+import sys, os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from base import load
 d=load()
 
@@ -49,7 +49,7 @@ et=pd.read_csv('evidence_tiers.csv').fillna('')
 sheet('S5_evidence_levels',['BioSample','Galaxy input','mcr gene','Replicon linked to mcr','Evidence source','mcr contig length (bp)','Evidence level'],et.values.tolist(),[18,18,10,30,14,18,26])
 
 # S6 snp clusters
-cl=json.load(open('../snp_clusters.json'))
+cl=json.load(open('snp_clusters.json'))
 rows=[]
 for c in sorted(cl,key=lambda x:-x['n_ours']):
     rows.append([c['erd'],c['n_ours'],'; '.join(f"{k}:{v}" for k,v in c['countries'].items()),
@@ -59,7 +59,7 @@ for c in sorted(cl,key=lambda x:-x['n_ours']):
 sheet('S6_snp_clusters',['PD SNP cluster','Our genomes in cluster','Our countries','Our sectors','Sequence types','Total PD members','Geography of all members'],rows,[18,16,22,28,28,16,34])
 
 del wb['Sheet']
-out='/mnt/user-data/outputs/Supplementary_Tables_S2-S6.xlsx'
+out='Supplementary_Tables_S2-S6.xlsx'
 wb.save(out)
 print('saved',out)
 print('countries matched:',len(present),sorted(present))

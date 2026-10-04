@@ -1,4 +1,4 @@
-import sys; sys.path.insert(0,'.')
+import sys, os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from base import load
 import matplotlib
 matplotlib.use('Agg')
@@ -56,5 +56,5 @@ legend+=[Patch(facecolor='white',edgecolor='#444',label='on mcr contig'),
          Patch(facecolor='white',edgecolor='#444',hatch='////',label='MOB-Recon')]
 axes[1].legend(handles=legend,fontsize=8,loc='upper right',frameon=False,ncol=1)
 plt.tight_layout()
-plt.savefig('/home/claude/ms/figure1.png',dpi=200,bbox_inches='tight')
+plt.savefig('figure1.png',dpi=200,bbox_inches='tight')
 print('saved')

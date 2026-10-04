@@ -1,6 +1,7 @@
 import openpyxl, re, json
-F='/mnt/user-data/outputs/African_mcr_Ecoli_NCBI_dataset_Galaxy_results.xlsx'
-t=open('galaxy_final.txt').read()
+import os
+F=os.environ.get('MCR_WORKBOOK','Supplementary_Table_S1_per_genome_results.xlsx')
+t=open('checkm2_isescan_raw.txt').read()
 ck=[l.split('\t') for l in t.split('#CK')[1].split('#ISE')[0].strip().split('\n')]
 ise=[l.split('\t') for l in t.split('#ISE')[1].strip().split('\n')]
 # normalise checkm names -> galaxy input id

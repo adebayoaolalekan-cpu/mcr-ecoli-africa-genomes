@@ -16,7 +16,7 @@ pw=d[d['Sector (derived)']=='Poultry']; out['poultry_bpweighted']=dist(pw.rep,1/
 out['n_ST_all']=int(d['ST (Achtman) - to fill'].nunique()); out['n_ST_excl']=int(e['ST (Achtman) - to fill'].nunique())
 out['n_countries_excl']=int(e.Country.nunique()); out['n_excl']=int(len(e))
 out['sector_excl']=e['Sector (derived)'].value_counts().to_dict()
-cl=json.load(open('../snp_clusters.json')); memb={b:c['erd'] for c in cl for b in c['ours']}
+cl=json.load(open('snp_clusters.json')); memb={b:c['erd'] for c in cl for b in c['ours']}
 d['erd']=d.BioSample.map(memb).fillna(d.BioSample)
 dd=d.drop_duplicates('erd'); out['one_per_snp_cluster']=dist(dd.rep); out['n_snpdedup']=int(len(dd))
 out['n_bioprojects']=int(d.BioProject.nunique())
