@@ -1,0 +1,334 @@
+canonical_country	iso_alpha2	iso_alpha3	alias_term	normalised_term	term_type	isolates_matched
+Algeria	DZ	DZA	Algeria	algeria	alias	46
+Algeria	DZ	DZA	People's Democratic Republic of Algeria	people s democratic republic of algeria	alias	0
+Algeria	DZ	DZA	Algerie	algerie	alias	0
+Algeria	DZ	DZA	Algérie	algerie	alias	0
+Algeria	DZ	DZA	DZA	dza	iso_alpha3	0
+Algeria	DZ	DZA	DZ	dz	iso_alpha2	0
+Angola	AO	AGO	Angola	angola	alias	0
+Angola	AO	AGO	Republic of Angola	republic of angola	alias	0
+Angola	AO	AGO	AGO	ago	iso_alpha3	0
+Angola	AO	AGO	AO	ao	iso_alpha2	0
+Benin	BJ	BEN	Benin	benin	alias	0
+Benin	BJ	BEN	Republic of Benin	republic of benin	alias	0
+Benin	BJ	BEN	Dahomey	dahomey	alias	0
+Benin	BJ	BEN	BEN	ben	iso_alpha3	0
+Benin	BJ	BEN	BJ	bj	iso_alpha2	0
+Botswana	BW	BWA	Botswana	botswana	alias	0
+Botswana	BW	BWA	Republic of Botswana	republic of botswana	alias	0
+Botswana	BW	BWA	Bechuanaland	bechuanaland	alias	0
+Botswana	BW	BWA	BWA	bwa	iso_alpha3	0
+Botswana	BW	BWA	BW	bw	iso_alpha2	0
+Burkina Faso	BF	BFA	Burkina Faso	burkina faso	alias	0
+Burkina Faso	BF	BFA	Burkina	burkina	alias	0
+Burkina Faso	BF	BFA	Upper Volta	upper volta	alias	0
+Burkina Faso	BF	BFA	Haute Volta	haute volta	alias	0
+Burkina Faso	BF	BFA	BFA	bfa	iso_alpha3	0
+Burkina Faso	BF	BFA	BF	bf	iso_alpha2	0
+Burundi	BI	BDI	Burundi	burundi	alias	0
+Burundi	BI	BDI	Republic of Burundi	republic of burundi	alias	0
+Burundi	BI	BDI	BDI	bdi	iso_alpha3	0
+Burundi	BI	BDI	BI	bi	iso_alpha2	0
+Cabo Verde	CV	CPV	Cabo Verde	cabo verde	alias	0
+Cabo Verde	CV	CPV	Cape Verde	cape verde	alias	0
+Cabo Verde	CV	CPV	Republic of Cabo Verde	republic of cabo verde	alias	0
+Cabo Verde	CV	CPV	Republic of Cape Verde	republic of cape verde	alias	0
+Cabo Verde	CV	CPV	CPV	cpv	iso_alpha3	0
+Cabo Verde	CV	CPV	CV	cv	iso_alpha2	0
+Cameroon	CM	CMR	Cameroon	cameroon	alias	1
+Cameroon	CM	CMR	Republic of Cameroon	republic of cameroon	alias	0
+Cameroon	CM	CMR	Cameroun	cameroun	alias	0
+Cameroon	CM	CMR	CMR	cmr	iso_alpha3	0
+Cameroon	CM	CMR	CM	cm	iso_alpha2	0
+Central African Republic	CF	CAF	Central African Republic	central african republic	alias	2
+Central African Republic	CF	CAF	CAR	car	alias	0
+Central African Republic	CF	CAF	Centrafrique	centrafrique	alias	0
+Central African Republic	CF	CAF	Republique Centrafricaine	republique centrafricaine	alias	0
+Central African Republic	CF	CAF	République Centrafricaine	republique centrafricaine	alias	0
+Central African Republic	CF	CAF	Central African Rep	central african rep	alias	0
+Central African Republic	CF	CAF	Central African Rep.	central african rep	alias	0
+Central African Republic	CF	CAF	CAF	caf	iso_alpha3	0
+Central African Republic	CF	CAF	CF	cf	iso_alpha2	0
+Chad	TD	TCD	Chad	chad	alias	0
+Chad	TD	TCD	Republic of Chad	republic of chad	alias	0
+Chad	TD	TCD	Tchad	tchad	alias	0
+Chad	TD	TCD	TCD	tcd	iso_alpha3	0
+Chad	TD	TCD	TD	td	iso_alpha2	0
+Comoros	KM	COM	Comoros	comoros	alias	0
+Comoros	KM	COM	The Comoros	the comoros	alias	0
+Comoros	KM	COM	Union of the Comoros	union of the comoros	alias	0
+Comoros	KM	COM	Comores	comores	alias	0
+Comoros	KM	COM	COM	com	iso_alpha3	0
+Comoros	KM	COM	KM	km	iso_alpha2	0
+Democratic Republic of the Congo	CD	COD	Democratic Republic of the Congo	democratic republic of the congo	alias	2
+Democratic Republic of the Congo	CD	COD	Democratic Republic of Congo	democratic republic of congo	alias	0
+Democratic Republic of the Congo	CD	COD	DR Congo	dr congo	alias	0
+Democratic Republic of the Congo	CD	COD	DRC	drc	alias	0
+Democratic Republic of the Congo	CD	COD	D.R. Congo	d r congo	alias	0
+Democratic Republic of the Congo	CD	COD	DR_Congo	dr congo	alias	0
+Democratic Republic of the Congo	CD	COD	Congo Dem Rep	congo dem rep	alias	0
+Democratic Republic of the Congo	CD	COD	Congo, Dem. Rep.	congo dem rep	alias	0
+Democratic Republic of the Congo	CD	COD	Congo Democratic Republic	congo democratic republic	alias	0
+Democratic Republic of the Congo	CD	COD	Congo-Kinshasa	congo kinshasa	alias	0
+Democratic Republic of the Congo	CD	COD	Congo Kinshasa	congo kinshasa	alias	0
+Democratic Republic of the Congo	CD	COD	Zaire	zaire	alias	0
+Democratic Republic of the Congo	CD	COD	Zaïre	zaire	alias	0
+Democratic Republic of the Congo	CD	COD	Republique Democratique du Congo	republique democratique du congo	alias	0
+Democratic Republic of the Congo	CD	COD	COD	cod	iso_alpha3	0
+Democratic Republic of the Congo	CD	COD	CD	cd	iso_alpha2	0
+Republic of the Congo	CG	COG	Republic of the Congo	republic of the congo	alias	0
+Republic of the Congo	CG	COG	Republic of Congo	republic of congo	alias	0
+Republic of the Congo	CG	COG	Congo-Brazzaville	congo brazzaville	alias	0
+Republic of the Congo	CG	COG	Congo Brazzaville	congo brazzaville	alias	0
+Republic of the Congo	CG	COG	Congo, Rep.	congo rep	alias	0
+Republic of the Congo	CG	COG	Congo Rep	congo rep	alias	0
+Republic of the Congo	CG	COG	Congo	congo	alias	0
+Republic of the Congo	CG	COG	COG	cog	iso_alpha3	0
+Republic of the Congo	CG	COG	CG	cg	iso_alpha2	0
+Cote d'Ivoire	CI	CIV	Cote d'Ivoire	cote d ivoire	alias	0
+Cote d'Ivoire	CI	CIV	Côte d'Ivoire	cote d ivoire	alias	0
+Cote d'Ivoire	CI	CIV	Cote dIvoire	cote divoire	alias	0
+Cote d'Ivoire	CI	CIV	Cote d Ivoire	cote d ivoire	alias	0
+Cote d'Ivoire	CI	CIV	Ivory Coast	ivory coast	alias	0
+Cote d'Ivoire	CI	CIV	Republic of Cote d'Ivoire	republic of cote d ivoire	alias	0
+Cote d'Ivoire	CI	CIV	CIV	civ	alias	0
+Cote d'Ivoire	CI	CIV	CI	ci	iso_alpha2	0
+Djibouti	DJ	DJI	Djibouti	djibouti	alias	0
+Djibouti	DJ	DJI	Republic of Djibouti	republic of djibouti	alias	0
+Djibouti	DJ	DJI	DJI	dji	iso_alpha3	0
+Djibouti	DJ	DJI	DJ	dj	iso_alpha2	0
+Egypt	EG	EGY	Egypt	egypt	alias	18
+Egypt	EG	EGY	Arab Republic of Egypt	arab republic of egypt	alias	0
+Egypt	EG	EGY	Misr	misr	alias	0
+Egypt	EG	EGY	United Arab Republic	united arab republic	alias	0
+Egypt	EG	EGY	EGY	egy	iso_alpha3	0
+Egypt	EG	EGY	EG	eg	iso_alpha2	0
+Equatorial Guinea	GQ	GNQ	Equatorial Guinea	equatorial guinea	alias	0
+Equatorial Guinea	GQ	GNQ	Republic of Equatorial Guinea	republic of equatorial guinea	alias	0
+Equatorial Guinea	GQ	GNQ	Guinea Ecuatorial	guinea ecuatorial	alias	0
+Equatorial Guinea	GQ	GNQ	Spanish Guinea	spanish guinea	alias	0
+Equatorial Guinea	GQ	GNQ	GNQ	gnq	iso_alpha3	0
+Equatorial Guinea	GQ	GNQ	GQ	gq	iso_alpha2	0
+Eritrea	ER	ERI	Eritrea	eritrea	alias	0
+Eritrea	ER	ERI	State of Eritrea	state of eritrea	alias	0
+Eritrea	ER	ERI	ERI	eri	iso_alpha3	0
+Eritrea	ER	ERI	ER	er	iso_alpha2	0
+Eswatini	SZ	SWZ	Eswatini	eswatini	alias	0
+Eswatini	SZ	SWZ	Kingdom of Eswatini	kingdom of eswatini	alias	0
+Eswatini	SZ	SWZ	Swaziland	swaziland	alias	0
+Eswatini	SZ	SWZ	SWZ	swz	iso_alpha3	0
+Eswatini	SZ	SWZ	SZ	sz	iso_alpha2	0
+Ethiopia	ET	ETH	Ethiopia	ethiopia	alias	1
+Ethiopia	ET	ETH	Federal Democratic Republic of Ethiopia	federal democratic republic of ethiopia	alias	0
+Ethiopia	ET	ETH	Abyssinia	abyssinia	alias	0
+Ethiopia	ET	ETH	ETH	eth	iso_alpha3	0
+Ethiopia	ET	ETH	ET	et	iso_alpha2	0
+Gabon	GA	GAB	Gabon	gabon	alias	0
+Gabon	GA	GAB	Gabonese Republic	gabonese republic	alias	0
+Gabon	GA	GAB	GAB	gab	iso_alpha3	0
+Gabon	GA	GAB	GA	ga	iso_alpha2	0
+Gambia	GM	GMB	Gambia	gambia	alias	0
+Gambia	GM	GMB	The Gambia	the gambia	alias	0
+Gambia	GM	GMB	Republic of the Gambia	republic of the gambia	alias	0
+Gambia	GM	GMB	Gambia, The	gambia the	alias	0
+Gambia	GM	GMB	GMB	gmb	iso_alpha3	0
+Gambia	GM	GMB	GM	gm	iso_alpha2	0
+Ghana	GH	GHA	Ghana	ghana	alias	0
+Ghana	GH	GHA	Republic of Ghana	republic of ghana	alias	0
+Ghana	GH	GHA	Gold Coast	gold coast	alias	0
+Ghana	GH	GHA	GHA	gha	iso_alpha3	0
+Ghana	GH	GHA	GH	gh	iso_alpha2	0
+Guinea	GN	GIN	Guinea	guinea	alias	0
+Guinea	GN	GIN	Republic of Guinea	republic of guinea	alias	0
+Guinea	GN	GIN	Guinea-Conakry	guinea conakry	alias	0
+Guinea	GN	GIN	Guinea Conakry	guinea conakry	alias	0
+Guinea	GN	GIN	French Guinea	french guinea	alias	0
+Guinea	GN	GIN	GIN	gin	iso_alpha3	0
+Guinea	GN	GIN	GN	gn	iso_alpha2	0
+Guinea-Bissau	GW	GNB	Guinea-Bissau	guinea bissau	alias	0
+Guinea-Bissau	GW	GNB	Guinea Bissau	guinea bissau	alias	0
+Guinea-Bissau	GW	GNB	GuineaBissau	guineabissau	alias	0
+Guinea-Bissau	GW	GNB	Republic of Guinea-Bissau	republic of guinea bissau	alias	0
+Guinea-Bissau	GW	GNB	Portuguese Guinea	portuguese guinea	alias	0
+Guinea-Bissau	GW	GNB	GNB	gnb	iso_alpha3	0
+Guinea-Bissau	GW	GNB	GW	gw	iso_alpha2	0
+Kenya	KE	KEN	Kenya	kenya	alias	0
+Kenya	KE	KEN	Republic of Kenya	republic of kenya	alias	0
+Kenya	KE	KEN	KEN	ken	iso_alpha3	0
+Kenya	KE	KEN	KE	ke	iso_alpha2	0
+Lesotho	LS	LSO	Lesotho	lesotho	alias	0
+Lesotho	LS	LSO	Kingdom of Lesotho	kingdom of lesotho	alias	0
+Lesotho	LS	LSO	Basutoland	basutoland	alias	0
+Lesotho	LS	LSO	LSO	lso	iso_alpha3	0
+Lesotho	LS	LSO	LS	ls	iso_alpha2	0
+Liberia	LR	LBR	Liberia	liberia	alias	0
+Liberia	LR	LBR	Republic of Liberia	republic of liberia	alias	0
+Liberia	LR	LBR	LBR	lbr	iso_alpha3	0
+Liberia	LR	LBR	LR	lr	iso_alpha2	0
+Libya	LY	LBY	Libya	libya	alias	0
+Libya	LY	LBY	State of Libya	state of libya	alias	0
+Libya	LY	LBY	Libyan Arab Jamahiriya	libyan arab jamahiriya	alias	0
+Libya	LY	LBY	Socialist People's Libyan Arab Jamahiriya	socialist people s libyan arab jamahiriya	alias	0
+Libya	LY	LBY	Libyan Arab Republic	libyan arab republic	alias	0
+Libya	LY	LBY	LBY	lby	iso_alpha3	0
+Libya	LY	LBY	LY	ly	iso_alpha2	0
+Madagascar	MG	MDG	Madagascar	madagascar	alias	0
+Madagascar	MG	MDG	Republic of Madagascar	republic of madagascar	alias	0
+Madagascar	MG	MDG	Malagasy Republic	malagasy republic	alias	0
+Madagascar	MG	MDG	MDG	mdg	iso_alpha3	0
+Madagascar	MG	MDG	MG	mg	iso_alpha2	0
+Malawi	MW	MWI	Malawi	malawi	alias	3
+Malawi	MW	MWI	Republic of Malawi	republic of malawi	alias	0
+Malawi	MW	MWI	Nyasaland	nyasaland	alias	0
+Malawi	MW	MWI	MWI	mwi	iso_alpha3	0
+Malawi	MW	MWI	MW	mw	iso_alpha2	0
+Mali	ML	MLI	Mali	mali	alias	0
+Mali	ML	MLI	Republic of Mali	republic of mali	alias	0
+Mali	ML	MLI	French Sudan	french sudan	alias	0
+Mali	ML	MLI	MLI	mli	iso_alpha3	0
+Mali	ML	MLI	ML	ml	iso_alpha2	0
+Mauritania	MR	MRT	Mauritania	mauritania	alias	0
+Mauritania	MR	MRT	Islamic Republic of Mauritania	islamic republic of mauritania	alias	0
+Mauritania	MR	MRT	Mauritanie	mauritanie	alias	0
+Mauritania	MR	MRT	MRT	mrt	iso_alpha3	0
+Mauritania	MR	MRT	MR	mr	iso_alpha2	0
+Mauritius	MU	MUS	Mauritius	mauritius	alias	0
+Mauritius	MU	MUS	Republic of Mauritius	republic of mauritius	alias	0
+Mauritius	MU	MUS	Maurice	maurice	alias	0
+Mauritius	MU	MUS	MUS	mus	iso_alpha3	0
+Mauritius	MU	MUS	MU	mu	iso_alpha2	0
+Morocco	MA	MAR	Morocco	morocco	alias	2
+Morocco	MA	MAR	Kingdom of Morocco	kingdom of morocco	alias	0
+Morocco	MA	MAR	Maroc	maroc	alias	0
+Morocco	MA	MAR	MAR	mar	iso_alpha3	0
+Morocco	MA	MAR	MA	ma	iso_alpha2	0
+Mozambique	MZ	MOZ	Mozambique	mozambique	alias	0
+Mozambique	MZ	MOZ	Republic of Mozambique	republic of mozambique	alias	0
+Mozambique	MZ	MOZ	Mocambique	mocambique	alias	0
+Mozambique	MZ	MOZ	Moçambique	mocambique	alias	0
+Mozambique	MZ	MOZ	Portuguese East Africa	portuguese east africa	alias	0
+Mozambique	MZ	MOZ	MOZ	moz	iso_alpha3	0
+Mozambique	MZ	MOZ	MZ	mz	iso_alpha2	0
+Namibia	NA	NAM	Namibia	namibia	alias	0
+Namibia	NA	NAM	Republic of Namibia	republic of namibia	alias	0
+Namibia	NA	NAM	South West Africa	south west africa	alias	0
+Namibia	NA	NAM	South-West Africa	south west africa	alias	0
+Namibia	NA	NAM	NAM	nam	iso_alpha3	0
+Namibia	NA	NAM	NA	na	iso_alpha2	0
+Niger	NE	NER	Niger	niger	alias	1
+Niger	NE	NER	Republic of the Niger	republic of the niger	alias	0
+Niger	NE	NER	Republic of Niger	republic of niger	alias	0
+Niger	NE	NER	NER	ner	iso_alpha3	0
+Niger	NE	NER	NE	ne	iso_alpha2	0
+Nigeria	NG	NGA	Nigeria	nigeria	alias	12
+Nigeria	NG	NGA	Federal Republic of Nigeria	federal republic of nigeria	alias	0
+Nigeria	NG	NGA	Niger Delta	niger delta	alias	0
+Nigeria	NG	NGA	NGA	nga	iso_alpha3	0
+Nigeria	NG	NGA	NG	ng	iso_alpha2	0
+Rwanda	RW	RWA	Rwanda	rwanda	alias	2
+Rwanda	RW	RWA	Republic of Rwanda	republic of rwanda	alias	0
+Rwanda	RW	RWA	Ruanda	ruanda	alias	0
+Rwanda	RW	RWA	RWA	rwa	iso_alpha3	0
+Rwanda	RW	RWA	RW	rw	iso_alpha2	0
+Sahrawi Arab Democratic Republic	EH	ESH	Western Sahara	western sahara	alias	0
+Sahrawi Arab Democratic Republic	EH	ESH	Sahrawi Arab Democratic Republic	sahrawi arab democratic republic	alias	0
+Sahrawi Arab Democratic Republic	EH	ESH	SADR	sadr	alias	0
+Sahrawi Arab Democratic Republic	EH	ESH	Sahrawi Republic	sahrawi republic	alias	0
+Sahrawi Arab Democratic Republic	EH	ESH	Saharawi	saharawi	alias	0
+Sahrawi Arab Democratic Republic	EH	ESH	Rio de Oro	rio de oro	alias	0
+Sahrawi Arab Democratic Republic	EH	ESH	ESH	esh	iso_alpha3	0
+Sahrawi Arab Democratic Republic	EH	ESH	EH	eh	iso_alpha2	0
+Sao Tome and Principe	ST	STP	Sao Tome and Principe	sao tome and principe	alias	0
+Sao Tome and Principe	ST	STP	São Tomé and Príncipe	sao tome and principe	alias	0
+Sao Tome and Principe	ST	STP	Sao Tome & Principe	sao tome principe	alias	0
+Sao Tome and Principe	ST	STP	Sao Tome	sao tome	alias	0
+Sao Tome and Principe	ST	STP	Democratic Republic of Sao Tome and Principe	democratic republic of sao tome and principe	alias	0
+Sao Tome and Principe	ST	STP	STP	stp	iso_alpha3	0
+Sao Tome and Principe	ST	STP	ST	st	iso_alpha2	0
+Senegal	SN	SEN	Senegal	senegal	alias	0
+Senegal	SN	SEN	Republic of Senegal	republic of senegal	alias	0
+Senegal	SN	SEN	Sénégal	senegal	alias	0
+Senegal	SN	SEN	SEN	sen	iso_alpha3	0
+Senegal	SN	SEN	SN	sn	iso_alpha2	0
+Seychelles	SC	SYC	Seychelles	seychelles	alias	0
+Seychelles	SC	SYC	Republic of Seychelles	republic of seychelles	alias	0
+Seychelles	SC	SYC	SYC	syc	iso_alpha3	0
+Seychelles	SC	SYC	SC	sc	iso_alpha2	0
+Sierra Leone	SL	SLE	Sierra Leone	sierra leone	alias	0
+Sierra Leone	SL	SLE	Republic of Sierra Leone	republic of sierra leone	alias	0
+Sierra Leone	SL	SLE	SLE	sle	iso_alpha3	0
+Sierra Leone	SL	SLE	SL	sl	iso_alpha2	0
+Somalia	SO	SOM	Somalia	somalia	alias	0
+Somalia	SO	SOM	Federal Republic of Somalia	federal republic of somalia	alias	0
+Somalia	SO	SOM	Somaliland	somaliland	alias	0
+Somalia	SO	SOM	Somali Republic	somali republic	alias	0
+Somalia	SO	SOM	Soomaaliya	soomaaliya	alias	0
+Somalia	SO	SOM	SOM	som	iso_alpha3	0
+Somalia	SO	SOM	SO	so	iso_alpha2	0
+South Africa	ZA	ZAF	South Africa	south africa	alias	5
+South Africa	ZA	ZAF	Republic of South Africa	republic of south africa	alias	0
+South Africa	ZA	ZAF	RSA	rsa	alias	0
+South Africa	ZA	ZAF	Union of South Africa	union of south africa	alias	0
+South Africa	ZA	ZAF	ZAF	zaf	iso_alpha3	0
+South Africa	ZA	ZAF	ZA	za	iso_alpha2	0
+South Sudan	SS	SSD	South Sudan	south sudan	alias	0
+South Sudan	SS	SSD	Republic of South Sudan	republic of south sudan	alias	0
+South Sudan	SS	SSD	SSD	ssd	iso_alpha3	0
+South Sudan	SS	SSD	SS	ss	iso_alpha2	0
+Sudan	SD	SDN	Sudan	sudan	alias	0
+Sudan	SD	SDN	Republic of the Sudan	republic of the sudan	alias	0
+Sudan	SD	SDN	Republic of Sudan	republic of sudan	alias	0
+Sudan	SD	SDN	Anglo-Egyptian Sudan	anglo egyptian sudan	alias	0
+Sudan	SD	SDN	SDN	sdn	iso_alpha3	0
+Sudan	SD	SDN	SD	sd	iso_alpha2	0
+Tanzania	TZ	TZA	Tanzania	tanzania	alias	12
+Tanzania	TZ	TZA	United Republic of Tanzania	united republic of tanzania	alias	0
+Tanzania	TZ	TZA	Zanzibar	zanzibar	alias	0
+Tanzania	TZ	TZA	Tanganyika	tanganyika	alias	0
+Tanzania	TZ	TZA	Tanzania, United Republic of	tanzania united republic of	alias	0
+Tanzania	TZ	TZA	TZA	tza	iso_alpha3	0
+Tanzania	TZ	TZA	TZ	tz	iso_alpha2	0
+Togo	TG	TGO	Togo	togo	alias	1
+Togo	TG	TGO	Togolese Republic	togolese republic	alias	0
+Togo	TG	TGO	Togoland	togoland	alias	0
+Togo	TG	TGO	TGO	tgo	iso_alpha3	0
+Togo	TG	TGO	TG	tg	iso_alpha2	0
+Tunisia	TN	TUN	Tunisia	tunisia	alias	14
+Tunisia	TN	TUN	Republic of Tunisia	republic of tunisia	alias	0
+Tunisia	TN	TUN	Tunisie	tunisie	alias	0
+Tunisia	TN	TUN	TUN	tun	iso_alpha3	0
+Tunisia	TN	TUN	TN	tn	iso_alpha2	0
+Uganda	UG	UGA	Uganda	uganda	alias	5
+Uganda	UG	UGA	Republic of Uganda	republic of uganda	alias	0
+Uganda	UG	UGA	UGA	uga	iso_alpha3	0
+Uganda	UG	UGA	UG	ug	iso_alpha2	0
+Zambia	ZM	ZMB	Zambia	zambia	alias	0
+Zambia	ZM	ZMB	Republic of Zambia	republic of zambia	alias	0
+Zambia	ZM	ZMB	Northern Rhodesia	northern rhodesia	alias	0
+Zambia	ZM	ZMB	ZMB	zmb	iso_alpha3	0
+Zambia	ZM	ZMB	ZM	zm	iso_alpha2	0
+Zimbabwe	ZW	ZWE	Zimbabwe	zimbabwe	alias	0
+Zimbabwe	ZW	ZWE	Republic of Zimbabwe	republic of zimbabwe	alias	0
+Zimbabwe	ZW	ZWE	Rhodesia	rhodesia	alias	0
+Zimbabwe	ZW	ZWE	Southern Rhodesia	southern rhodesia	alias	0
+Zimbabwe	ZW	ZWE	ZWE	zwe	iso_alpha3	0
+Zimbabwe	ZW	ZWE	ZW	zw	iso_alpha2	0
+(excluded non-AU territory) Reunion			Reunion	reunion	exclusion	6
+(excluded non-AU territory) Reunion			Réunion	reunion	exclusion	0
+(excluded non-AU territory) Reunion			La Reunion	la reunion	exclusion	0
+(excluded non-AU territory) Mayotte			Mayotte	mayotte	exclusion	0
+(excluded non-AU territory) Saint Helena			Saint Helena	saint helena	exclusion	0
+(excluded non-AU territory) Saint Helena			St Helena	st helena	exclusion	0
+(excluded non-AU territory) Saint Helena			St. Helena	st helena	exclusion	0
+(excluded non-AU territory) Ascension			Ascension Island	ascension island	exclusion	0
+(excluded non-AU territory) Ascension			Ascension	ascension	exclusion	0
+(excluded non-AU territory) Tristan da Cunha			Tristan da Cunha	tristan da cunha	exclusion	0
+(excluded non-AU territory) Canary Islands			Canary Islands	canary islands	exclusion	0
+(excluded non-AU territory) Canary Islands			Islas Canarias	islas canarias	exclusion	0
+(excluded non-AU territory) Canary Islands			Canarias	canarias	exclusion	0
+(excluded non-AU territory) Canary Islands			Tenerife	tenerife	exclusion	0
+(excluded non-AU territory) Canary Islands			Gran Canaria	gran canaria	exclusion	0
+(excluded non-AU territory) Ceuta			Ceuta	ceuta	exclusion	0
+(excluded non-AU territory) Melilla			Melilla	melilla	exclusion	0
+(excluded non-AU territory) Madeira			Madeira	madeira	exclusion	0
+(excluded non-AU territory) Madeira			Funchal	funchal	exclusion	0

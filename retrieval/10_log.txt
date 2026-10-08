@@ -1,0 +1,432 @@
+mcr_africa_rebuild.py provenance log
+script version: 1.0
+python: 3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]
+run started (UTC): 2026-10-07T16:47:42Z
+
+==============================================================================
+COUNTS AT EVERY FILTERING STEP
+==============================================================================
+1.3 metadata file size (bytes)                           549040242
+2.0 rows in metadata table                               587057
+2.3 mcr token qualifier COMPLETE                   tokens 13038
+2.3 mcr token qualifier COMPLETE                   isolates 12409
+2.3 mcr token qualifier FRAME_SHIFT                tokens 0
+2.3 mcr token qualifier FRAME_SHIFT                isolates 0
+2.3 mcr token qualifier HMM                        tokens 0
+2.3 mcr token qualifier HMM                        isolates 0
+2.3 mcr token qualifier INTERNAL_STOP              tokens 0
+2.3 mcr token qualifier INTERNAL_STOP              isolates 0
+2.3 mcr token qualifier MISTRANSLATION             tokens 26
+2.3 mcr token qualifier MISTRANSLATION             isolates 26
+2.3 mcr token qualifier PARTIAL                    tokens 79
+2.3 mcr token qualifier PARTIAL                    isolates 79
+2.3 mcr token qualifier PARTIAL_CONTIG_END         tokens 0
+2.3 mcr token qualifier PARTIAL_CONTIG_END         isolates 0
+2.3 mcr token qualifier PARTIAL_END_OF_CONTIG      tokens 124
+2.3 mcr token qualifier PARTIAL_END_OF_CONTIG      isolates 124
+2.3 mcr token qualifier POINT                      tokens 0
+2.3 mcr token qualifier POINT                      isolates 0
+2.4 GLOBAL mcr-positive isolates (pre-geography)         12560
+2.4 global isolates carrying mcr-1                       392
+2.4 global isolates carrying mcr-1.1                     10474
+2.4 global isolates carrying mcr-1.11                    2
+2.4 global isolates carrying mcr-1.12                    5
+2.4 global isolates carrying mcr-1.13                    1
+2.4 global isolates carrying mcr-1.18                    8
+2.4 global isolates carrying mcr-1.2                     29
+2.4 global isolates carrying mcr-1.20                    1
+2.4 global isolates carrying mcr-1.26                    179
+2.4 global isolates carrying mcr-1.27                    5
+2.4 global isolates carrying mcr-1.28                    1
+2.4 global isolates carrying mcr-1.31                    1
+2.4 global isolates carrying mcr-1.32                    54
+2.4 global isolates carrying mcr-1.33                    2
+2.4 global isolates carrying mcr-1.34                    1
+2.4 global isolates carrying mcr-1.37                    1
+2.4 global isolates carrying mcr-1.4                     1
+2.4 global isolates carrying mcr-1.5                     23
+2.4 global isolates carrying mcr-1.7                     11
+2.4 global isolates carrying mcr-1.8                     3
+2.4 global isolates carrying mcr-1.9                     1
+2.4 global isolates carrying mcr-10                      3
+2.4 global isolates carrying mcr-10.1                    63
+2.4 global isolates carrying mcr-2                       1
+2.4 global isolates carrying mcr-2.1                     44
+2.4 global isolates carrying mcr-2.3                     11
+2.4 global isolates carrying mcr-2.8                     2
+2.4 global isolates carrying mcr-3                       91
+2.4 global isolates carrying mcr-3.1                     247
+2.4 global isolates carrying mcr-3.12                    1
+2.4 global isolates carrying mcr-3.19                    23
+2.4 global isolates carrying mcr-3.2                     35
+2.4 global isolates carrying mcr-3.20                    10
+2.4 global isolates carrying mcr-3.21                    2
+2.4 global isolates carrying mcr-3.24                    2
+2.4 global isolates carrying mcr-3.29                    8
+2.4 global isolates carrying mcr-3.39                    46
+2.4 global isolates carrying mcr-3.4                     30
+2.4 global isolates carrying mcr-3.5                     254
+2.4 global isolates carrying mcr-4                       9
+2.4 global isolates carrying mcr-4.1                     2
+2.4 global isolates carrying mcr-4.2                     24
+2.4 global isolates carrying mcr-4.3                     1
+2.4 global isolates carrying mcr-4.5                     2
+2.4 global isolates carrying mcr-4.6                     15
+2.4 global isolates carrying mcr-5                       16
+2.4 global isolates carrying mcr-5.1                     112
+2.4 global isolates carrying mcr-5.3                     2
+2.4 global isolates carrying mcr-8.1                     1
+2.4 global isolates carrying mcr-8.2                     1
+2.4 global isolates carrying mcr-9                       122
+2.4 global isolates carrying mcr-9.1                     658
+2.4 global isolates carrying mcr-9.2                     208
+3.4 boundary test cases run                              70
+3.4 boundary test failures                               0
+3.2 isolates assigned from the location field            127
+3.2 isolates unresolved after the location field         12433
+3.6 excluded by territory Reunion                        6
+3.6 excluded by territory Mayotte                        0
+3.6 excluded by territory Saint Helena                   0
+3.6 excluded by territory Ascension                      0
+3.6 excluded by territory Tristan da Cunha               0
+3.6 excluded by territory Canary Islands                 0
+3.6 excluded by territory Ceuta                          0
+3.6 excluded by territory Melilla                        0
+3.6 excluded by territory Madeira                        0
+3.6 excluded by non-AU territories, total                6
+3.5a isolates assigned by lat/long fallback              0
+3.5b isolates assigned by BioSample fallback             0
+3.0 AFRICAN UNION isolates retained                      127
+3.8 unresolved-location residual isolates (worldwide)    12433
+3.x residual reason: no alias matched                    10890
+3.x residual reason: empty location field                1531
+3.x residual reason: excluded non-AU territory           6
+3.x residual reason: non-specific location               3
+3.x residual reason: non-African guard phrase matched    3
+4.2 isolates with at least one run accession (metadata column) 19
+4.2 isolates with no run accession                       108
+4.3 distinct BioSample values                            127
+4.3 BioSample collisions                                 0
+4.3 distinct assembly accession values                   122
+4.3 assembly accession collisions                        0
+4.3 distinct run accessions                              19
+4.3 run accession collisions                             0
+4.4 isolates submitted under a non-E. coli name          2
+4.x sector Poultry                                       62
+4.x sector Human                                         34
+4.x sector Unspecified                                   14
+4.x sector Food (non-poultry)                            9
+4.x sector Other animal                                  6
+4.x sector Environment                                   2
+5.1 isolates in the earlier cohort                       118
+5.1 isolates in the new cohort                           127
+5.1 retained                                             118
+5.1 newly added                                          9
+5.1 dropped                                              0
+5.2 newly added isolates from South Africa               5
+5.2 newly added isolates from Central African Republic   2
+5.2 newly added isolates from Democratic Republic of the Congo 2
+5.2 newly added isolates from the three known-missing countries 9
+6.4 alias terms in the lookup table                      333
+6.4 alias terms that matched nothing                     316
+6.6 isolates retained                                    127
+6.6 countries represented                                16
+
+==============================================================================
+DISCRETIONARY DECISIONS
+==============================================================================
+1.2 build accession              PDG000000004.6345
+2.3 qualifiers kept              COMPLETE, INTERNAL_STOP, PARTIAL, PARTIAL_CONTIG_END, PARTIAL_END_OF_CONTIG
+2.3 qualifiers excluded          FRAME_SHIFT, HMM, MISTRANSLATION, POINT
+3.7 Western Sahara               Included as an African Union member state under the name Sahrawi Arab Democratic Republic. The SADR has been an AU (formerly OAU) member since 1984, so a rebuild scoped to AU member states must include it. Isolates assigned there are flagged western_sahara_review=yes so the disputed status is visible to a reader, and they are never merged into Morocco.
+4.2 E-utilities query date (UTC) 2026-10-07
+4.2 DEVIATION FROM SPEC          E-utilities esearch/esummary was not run; this environment has no network route to NCBI. Run accession, platform and library layout come from the pinned build's own columns. Read counts are absent. Step 4.2 is therefore satisfied in part only.
+4.4 species confirmation         Isolates submitted as Shigella or any other non-E. coli name are not retained or dropped on the submitted name. They are written to the species-screen list with the VFDB invasion-locus panel (ipaH, ipaB, ipaC, ipaD, icsA (virG), virB, mxiA/mxiD, spa15/spa32) and the commensal E. coli marker panel (ompA, csgA/csgB/csgD (csg operon), ecpA/ecpB/ecpC/ecpD/ecpE (ecp pilus)). Each needs a blastn screen against VFDB on its own assembly, and a stated retain or exclude decision per isolate, before the cohort is final. This script does not fabricate that result: the decision column reads PENDING-VFDB-SCREEN until the screen is done.
+5.2 stop condition               not triggered (9 recovered from the three countries)
+
+==============================================================================
+PROVENANCE
+==============================================================================
+build accession      PDG000000004.6345
+build directory      https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6345/
+metadata file        PDG000000004.6345.metadata.tsv
+metadata url         (offline run; file supplied locally)
+metadata bytes       549040242
+metadata sha256      30b72681a8ae923026c867f53214360d286dcc823a6474fbb6d22608cba56c35
+metadata md5         eb3e87de828913bf21a3318b3e3e8f41
+Last-Modified        (offline run)
+E-utilities date     2026-10-07
+earlier query date   2026-09-26
+script version       1.0
+python               3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]
+
+==============================================================================
+STEP 1.4 VERSIONS AS STATED IN THE METADATA TABLE
+==============================================================================
+amrfinder_version            4.2.7 (n=587050); 4.2.5 (n=1); 4.0.19 (n=1)
+refgene_db_version           2026-03-24.1 (n=545217); 2026-08-07.1 (n=21478); 2026-05-15.1 (n=20354); 2025-12-03.1 (n=1); 2025-03-25.1 (n=1); 2026-01-21.1 (n=1)
+amrfinder_analysis_type      COMBINED (n=421068); NUCLEOTIDE (n=165984)
+amrfinder_applied            1 (n=587052); 0 (n=5)
+
+==============================================================================
+STEP 2.3 QUALIFIER RULING AND RATIONALE
+==============================================================================
+COMPLETE (no qualifier) kept: full-length nucleotide-identity call.
+PARTIAL and PARTIAL_END_OF_CONTIG kept: a gene truncated by a contig break is still evidence that the assembly carries mcr, which is what a carriage survey counts. Draft assemblies from short reads routinely break plasmid-borne mcr across contigs, so dropping these would bias the cohort against the very genomes most likely to carry the gene on a mobile element. Every such isolate is flagged in the output so the decision can be reversed downstream.
+INTERNAL_STOP kept but flagged: the gene is present; whether the allele is functional is a separate question that sequence inspection, not the metadata table, should answer.
+HMM excluded: an HMM-only hit has no allele-level nucleotide support and cannot be assigned an mcr variant, so it fails the allele regex in spirit as well as in letter.
+POINT excluded: POINT entries are point mutations in core genes; mcr is an acquired gene and a POINT-qualified mcr call would be a schema anomaly. The count is reported so any such anomaly is visible rather than silent.
+
+==============================================================================
+STEP 3.4 BOUNDARY TEST REPORT
+==============================================================================
+PASS   Niger                                          expected=Niger                              got=Niger
+PASS   Nigeria                                        expected=Nigeria                            got=Nigeria
+PASS   Niger: Niamey                                  expected=Niger                              got=Niger
+PASS   Nigeria: Lagos                                 expected=Nigeria                            got=Nigeria
+PASS   Guinea                                         expected=Guinea                             got=Guinea
+PASS   Equatorial Guinea                              expected=Equatorial Guinea                  got=Equatorial Guinea
+PASS   Guinea-Bissau                                  expected=Guinea-Bissau                      got=Guinea-Bissau
+PASS   Guinea Bissau                                  expected=Guinea-Bissau                      got=Guinea-Bissau
+PASS   Papua New Guinea                               expected=None                               got=None
+PASS   Chad                                           expected=Chad                               got=Chad
+PASS   sample from a Chadian household                expected=None                               got=None
+PASS   Cote d'Ivoire                                  expected=Cote d'Ivoire                      got=Cote d'Ivoire
+PASS   Côte d'Ivoire                                  expected=Cote d'Ivoire                      got=Cote d'Ivoire
+PASS   Ivory Coast                                    expected=Cote d'Ivoire                      got=Cote d'Ivoire
+PASS   CIV                                            expected=Cote d'Ivoire                      got=Cote d'Ivoire
+PASS   Congo, Dem. Rep.                               expected=Democratic Republic of the Congo   got=Democratic Republic of the Congo
+PASS   Congo-Kinshasa                                 expected=Democratic Republic of the Congo   got=Democratic Republic of the Congo
+PASS   Zaire                                          expected=Democratic Republic of the Congo   got=Democratic Republic of the Congo
+PASS   DRC                                            expected=Democratic Republic of the Congo   got=Democratic Republic of the Congo
+PASS   Congo-Brazzaville                              expected=Republic of the Congo              got=Republic of the Congo
+PASS   Republic of the Congo                          expected=Republic of the Congo              got=Republic of the Congo
+PASS   Central African Republic                       expected=Central African Republic           got=Central African Republic
+PASS   Centrafrique                                   expected=Central African Republic           got=Central African Republic
+PASS   Swaziland                                      expected=Eswatini                           got=Eswatini
+PASS   Eswatini                                       expected=Eswatini                           got=Eswatini
+PASS   Cape Verde                                     expected=Cabo Verde                         got=Cabo Verde
+PASS   Cabo Verde                                     expected=Cabo Verde                         got=Cabo Verde
+PASS   United Republic of Tanzania                    expected=Tanzania                           got=Tanzania
+PASS   Zanzibar                                       expected=Tanzania                           got=Tanzania
+PASS   The Gambia                                     expected=Gambia                             got=Gambia
+PASS   Gambia                                         expected=Gambia                             got=Gambia
+PASS   São Tomé and Príncipe                          expected=Sao Tome and Principe              got=Sao Tome and Principe
+PASS   Western Sahara                                 expected=Sahrawi Arab Democratic Republic   got=Sahrawi Arab Democratic Republic
+PASS   South Africa: Gauteng                          expected=South Africa                       got=South Africa
+PASS   southern Africa                                expected=None                               got=None
+PASS   Southern Africa                                expected=None                               got=None
+PASS   Upper Volta                                    expected=Burkina Faso                       got=Burkina Faso
+PASS   Dahomey                                        expected=Benin                              got=Benin
+PASS   Nyasaland                                      expected=Malawi                             got=Malawi
+PASS   Northern Rhodesia                              expected=Zambia                             got=Zambia
+PASS   Rhodesia                                       expected=Zimbabwe                           got=Zimbabwe
+PASS   Abyssinia                                      expected=Ethiopia                           got=Ethiopia
+PASS   Somaliland                                     expected=Somalia                            got=Somalia
+PASS   Libyan Arab Jamahiriya                         expected=Libya                              got=Libya
+PASS   Viet Nam                                       expected=None                               got=None
+PASS   Viet Nam:Thai Binh                             expected=None                               got=None
+PASS   Viet Nam: Ho Chi Minh City                     expected=None                               got=None
+PASS   USA:GA                                         expected=None                               got=None
+PASS   USA:SC                                         expected=None                               got=None
+PASS   USA:SD                                         expected=None                               got=None
+PASS   USA:NE                                         expected=None                               got=None
+PASS   USA:TN                                         expected=None                               got=None
+PASS   USA: Boston, MA                                expected=None                               got=None
+PASS   USA:MA,Boston                                  expected=None                               got=None
+PASS   NAM                                            expected=Namibia                            got=Namibia
+PASS   NGA                                            expected=Nigeria                            got=Nigeria
+PASS   ZAF                                            expected=South Africa                       got=South Africa
+PASS   Papua New Guinea: Port Moresby                 expected=None                               got=None
+PASS   Gulf of Guinea                                 expected=None                               got=None
+PASS   guinea fowl farm                               expected=None                               got=None
+PASS   Niger Delta                                    expected=Nigeria                            got=Nigeria
+PASS   Niger Delta, Nigeria                           expected=Nigeria                            got=Nigeria
+PASS   26.2 S 28.0 E                                  expected=None                               got=None
+PASS   Reunion                                        expected=None                               got=None
+PASS   Mayotte                                        expected=None                               got=None
+PASS   Canary Islands                                 expected=None                               got=None
+PASS   Ceuta                                          expected=None                               got=None
+PASS   Melilla                                        expected=None                               got=None
+PASS   Madeira                                        expected=None                               got=None
+PASS   Kinshasa: Democratic Republic of the Congo     expected=Democratic Republic of the Congo   got=Democratic Republic of the Congo
+
+==============================================================================
+STEP 4.3 DEDUPLICATION COLLISIONS
+==============================================================================
+(none)
+
+==============================================================================
+BUILD DIRECTORY LISTING
+==============================================================================
+(offline run; not listed)
+
+==============================================================================
+METADATA DIRECTORY LISTING
+==============================================================================
+(offline run; not listed)
+
+==============================================================================
+METADATA TABLE HEADER
+==============================================================================
+#label, FDA_lab_id, HHS_region, IFSAC_category, LibraryLayout, PFGE_PrimaryEnzyme_pattern, PFGE_SecondaryEnzyme_pattern, Platform, Run, asm_acc, asm_level, asm_stats_contig_n50, asm_stats_length_bp, asm_stats_n_contig, assembly_method, attribute_package, bioproject_acc, bioproject_center, biosample_acc, isolate_identifiers, collected_by, collection_date, epi_type, fullasm_id, geo_loc_name, host, host_disease, isolation_source, lat_lon, ontological_term, outbreak, sample_name, scientific_name, serovar, source_type, species_taxid, sra_center, sra_release_date, strain, sequenced_by, project_name, food_origin, target_acc, target_creation_date, taxid, wgs_acc_prefix, wgs_master_acc, minsame, mindiff, computed_types, number_drugs_resistant, number_drugs_intermediate, number_drugs_susceptible, number_drugs_tested, number_amr_genes, number_core_amr_genes, AST_phenotypes, AMR_genotypes, AMR_genotypes_core, number_stress_genes, stress_genotypes, number_virulence_genes, virulence_genotypes, amrfinder_version, refgene_db_version, amrfinder_analysis_type, amrfinder_applied
+
+==============================================================================
+EVENT LOG
+==============================================================================
+[2026-10-07T16:47:42Z] WARNING no --email supplied. NCBI asks for a contact address with E-utilities traffic.
+[2026-10-07T16:47:42Z] STEP 1 - pin build and fetch metadata
+[2026-10-07T16:47:42Z] OFFLINE mode: no FTP listing, checksumming the supplied local table only
+[2026-10-07T16:47:45Z] DECIDE 1.2 build accession                                  PDG000000004.6345
+[2026-10-07T16:47:45Z] COUNT  1.3 metadata file size (bytes)                       549040242
+[2026-10-07T16:47:45Z] STEP 2 - select mcr-positive isolates
+[2026-10-07T16:47:45Z] DECIDE 2.3 qualifiers kept                                  COMPLETE, INTERNAL_STOP, PARTIAL, PARTIAL_CONTIG_END, PARTIAL_END_OF_CONTIG
+[2026-10-07T16:47:45Z] DECIDE 2.3 qualifiers excluded                              FRAME_SHIFT, HMM, MISTRANSLATION, POINT
+[2026-10-07T16:47:45Z] metadata columns (67): #label, FDA_lab_id, HHS_region, IFSAC_category, LibraryLayout, PFGE_PrimaryEnzyme_pattern, PFGE_SecondaryEnzyme_pattern, Platform, Run, asm_acc, asm_level, asm_stats_contig_n50, asm_stats_length_bp, asm_stats_n_contig, assembly_method, attribute_package, bioproject_acc, bioproject_center, biosample_acc, isolate_identifiers, collected_by, collection_date, epi_type, fullasm_id, geo_loc_name, host, host_disease, isolation_source, lat_lon, ontological_term, outbreak, sample_name, scientific_name, serovar, source_type, species_taxid, sra_center, sra_release_date, strain, sequenced_by, project_name, food_origin, target_acc, target_creation_date, taxid, wgs_acc_prefix, wgs_master_acc, minsame, mindiff, computed_types, number_drugs_resistant, number_drugs_intermediate, number_drugs_susceptible, number_drugs_tested, number_amr_genes, number_core_amr_genes, AST_phenotypes, AMR_genotypes, AMR_genotypes_core, number_stress_genes, stress_genotypes, number_virulence_genes, virulence_genotypes, amrfinder_version, refgene_db_version, amrfinder_analysis_type, amrfinder_applied
+[2026-10-07T16:47:45Z] version-bearing columns: amrfinder_version, refgene_db_version, amrfinder_analysis_type, amrfinder_applied
+[2026-10-07T16:47:56Z] COUNT  2.0 rows in metadata table                           587057
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier COMPLETE                   tokens 13038
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier COMPLETE                   isolates 12409
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier FRAME_SHIFT                tokens 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier FRAME_SHIFT                isolates 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier HMM                        tokens 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier HMM                        isolates 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier INTERNAL_STOP              tokens 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier INTERNAL_STOP              isolates 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier MISTRANSLATION             tokens 26
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier MISTRANSLATION             isolates 26
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier PARTIAL                    tokens 79
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier PARTIAL                    isolates 79
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier PARTIAL_CONTIG_END         tokens 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier PARTIAL_CONTIG_END         isolates 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier PARTIAL_END_OF_CONTIG      tokens 124
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier PARTIAL_END_OF_CONTIG      isolates 124
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier POINT                      tokens 0
+[2026-10-07T16:47:56Z] COUNT  2.3 mcr token qualifier POINT                      isolates 0
+[2026-10-07T16:47:56Z] COUNT  2.4 GLOBAL mcr-positive isolates (pre-geography)     12560
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1                   392
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.1                 10474
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.11                2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.12                5
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.13                1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.18                8
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.2                 29
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.20                1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.26                179
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.27                5
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.28                1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.31                1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.32                54
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.33                2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.34                1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.37                1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.4                 1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.5                 23
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.7                 11
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.8                 3
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-1.9                 1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-10                  3
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-10.1                63
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-2                   1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-2.1                 44
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-2.3                 11
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-2.8                 2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3                   91
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.1                 247
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.12                1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.19                23
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.2                 35
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.20                10
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.21                2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.24                2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.29                8
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.39                46
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.4                 30
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-3.5                 254
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-4                   9
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-4.1                 2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-4.2                 24
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-4.3                 1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-4.5                 2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-4.6                 15
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-5                   16
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-5.1                 112
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-5.3                 2
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-8.1                 1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-8.2                 1
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-9                   122
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-9.1                 658
+[2026-10-07T16:47:56Z] COUNT  2.4 global isolates carrying mcr-9.2                 208
+[2026-10-07T16:47:56Z] 1.4 amrfinder_version: 4.2.7 (n=587050); 4.2.5 (n=1); 4.0.19 (n=1)
+[2026-10-07T16:47:56Z] 1.4 refgene_db_version: 2026-03-24.1 (n=545217); 2026-08-07.1 (n=21478); 2026-05-15.1 (n=20354); 2025-12-03.1 (n=1); 2025-03-25.1 (n=1)
+[2026-10-07T16:47:56Z] 1.4 amrfinder_analysis_type: COMBINED (n=421068); NUCLEOTIDE (n=165984)
+[2026-10-07T16:47:56Z] 1.4 amrfinder_applied: 1 (n=587052); 0 (n=5)
+[2026-10-07T16:47:56Z] STEP 3 - assign country locally
+[2026-10-07T16:47:56Z] COUNT  3.4 boundary test cases run                          70
+[2026-10-07T16:47:56Z] COUNT  3.4 boundary test failures                           0
+[2026-10-07T16:47:56Z] DECIDE 3.7 Western Sahara                                   Included as an African Union member state under the name Sahrawi Arab Democratic Republic. The SADR has been an AU (formerly OAU) member since 1984, so a rebuild scoped to AU member states must include it. Isolates assigned there are flagged western_sahara_review=yes so the disputed status is visible to a reader, and they are never merged into Morocco.
+[2026-10-07T16:48:10Z] COUNT  3.2 isolates assigned from the location field        127
+[2026-10-07T16:48:10Z] COUNT  3.2 isolates unresolved after the location field     12433
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Reunion                    6
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Mayotte                    0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Saint Helena               0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Ascension                  0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Tristan da Cunha           0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Canary Islands             0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Ceuta                      0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Melilla                    0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by territory Madeira                    0
+[2026-10-07T16:48:10Z] COUNT  3.6 excluded by non-AU territories, total            6
+[2026-10-07T16:48:10Z] 3.5a reverse_geocoder not installed; lat/long falls back to coarse bounding boxes and ambiguous points are left unresolved rather than guessed
+[2026-10-07T16:48:10Z] COUNT  3.5a isolates assigned by lat/long fallback          0
+[2026-10-07T16:48:10Z] 3.5b skipped (--skip-eutils or nothing unresolved)
+[2026-10-07T16:48:10Z] COUNT  3.5b isolates assigned by BioSample fallback         0
+[2026-10-07T16:48:10Z] COUNT  3.0 AFRICAN UNION isolates retained                  127
+[2026-10-07T16:48:10Z] COUNT  3.8 unresolved-location residual isolates (worldwide) 12433
+[2026-10-07T16:48:10Z] COUNT  3.x residual reason: no alias matched                10890
+[2026-10-07T16:48:10Z] COUNT  3.x residual reason: empty location field            1531
+[2026-10-07T16:48:10Z] COUNT  3.x residual reason: excluded non-AU territory       6
+[2026-10-07T16:48:10Z] COUNT  3.x residual reason: non-specific location           3
+[2026-10-07T16:48:10Z] COUNT  3.x residual reason: non-African guard phrase matched 3
+[2026-10-07T16:48:10Z] STEP 4 - resolve isolates to sequence
+[2026-10-07T16:48:10Z] DECIDE 4.2 E-utilities query date (UTC)                     2026-10-07
+[2026-10-07T16:48:10Z] 4.2 DEVIATION: E-utilities not queried (--skip-eutils). Run accessions, platform and library layout are taken from the build's own Run, Platform and LibraryLayout columns, which are NCBI-computed for this build. Read counts (total_spots, total_bases) are not in the metadata table and are therefore MISSING; recover them with a live esummary run.
+[2026-10-07T16:48:10Z] COUNT  4.2 isolates with at least one run accession (metadata column) 19
+[2026-10-07T16:48:10Z] COUNT  4.2 isolates with no run accession                   108
+[2026-10-07T16:48:10Z] DECIDE 4.2 DEVIATION FROM SPEC                              E-utilities esearch/esummary was not run; this environment has no network route to NCBI. Run accession, platform and library layout come from the pinned build's own columns. Read counts are absent. Step 4.2 is therefore satisfied in part only.
+[2026-10-07T16:48:10Z] COUNT  4.3 distinct BioSample values                        127
+[2026-10-07T16:48:10Z] COUNT  4.3 BioSample collisions                             0
+[2026-10-07T16:48:10Z] COUNT  4.3 distinct assembly accession values               122
+[2026-10-07T16:48:10Z] COUNT  4.3 assembly accession collisions                    0
+[2026-10-07T16:48:10Z] COUNT  4.3 distinct run accessions                          19
+[2026-10-07T16:48:10Z] COUNT  4.3 run accession collisions                         0
+[2026-10-07T16:48:10Z] COUNT  4.4 isolates submitted under a non-E. coli name      2
+[2026-10-07T16:48:10Z] DECIDE 4.4 species confirmation                             Isolates submitted as Shigella or any other non-E. coli name are not retained or dropped on the submitted name. They are written to the species-screen list with the VFDB invasion-locus panel (ipaH, ipaB, ipaC, ipaD, icsA (virG), virB, mxiA/mxiD, spa15/spa32) and the commensal E. coli marker panel (ompA, csgA/csgB/csgD (csg operon), ecpA/ecpB/ecpC/ecpD/ecpE (ecp pilus)). Each needs a blastn screen against VFDB on its own assembly, and a stated retain or exclude decision per isolate, before the cohort is final. This script does not fabricate that result: the decision column reads PENDING-VFDB-SCREEN until the screen is done.
+[2026-10-07T16:48:10Z] COUNT  4.x sector Poultry                                   62
+[2026-10-07T16:48:10Z] COUNT  4.x sector Human                                     34
+[2026-10-07T16:48:10Z] COUNT  4.x sector Unspecified                               14
+[2026-10-07T16:48:10Z] COUNT  4.x sector Food (non-poultry)                        9
+[2026-10-07T16:48:10Z] COUNT  4.x sector Other animal                              6
+[2026-10-07T16:48:10Z] COUNT  4.x sector Environment                               2
+[2026-10-07T16:48:10Z] STEP 5 - reconcile against the earlier cohort
+[2026-10-07T16:48:10Z] COUNT  5.1 isolates in the earlier cohort                   118
+[2026-10-07T16:48:10Z] COUNT  5.1 isolates in the new cohort                       127
+[2026-10-07T16:48:10Z] COUNT  5.1 retained                                         118
+[2026-10-07T16:48:10Z] COUNT  5.1 newly added                                      9
+[2026-10-07T16:48:10Z] COUNT  5.1 dropped                                          0
+[2026-10-07T16:48:10Z] COUNT  5.2 newly added isolates from South Africa           5
+[2026-10-07T16:48:10Z] COUNT  5.2 newly added isolates from Central African Republic 2
+[2026-10-07T16:48:10Z] COUNT  5.2 newly added isolates from Democratic Republic of the Congo 2
+[2026-10-07T16:48:10Z] COUNT  5.2 newly added isolates from the three known-missing countries 9
+[2026-10-07T16:48:10Z] DECIDE 5.2 stop condition                                   not triggered (9 recovered from the three countries)
+[2026-10-07T16:48:10Z] wrote real/01_final_cohort.tsv (127 rows)
+[2026-10-07T16:48:10Z] wrote real/02_global_mcr_positive.tsv (12560 rows)
+[2026-10-07T16:48:10Z] wrote real/03_unresolved_location_residual.tsv (12433 rows)
+[2026-10-07T16:48:10Z] wrote real/04_country_alias_lookup.tsv (333 rows)
+[2026-10-07T16:48:10Z] COUNT  6.4 alias terms in the lookup table                  333
+[2026-10-07T16:48:10Z] COUNT  6.4 alias terms that matched nothing                 316
+[2026-10-07T16:48:10Z] wrote real/05_species_screen_list.tsv (2 rows)
+[2026-10-07T16:48:10Z] wrote real/06_reconciliation_added.tsv (9 rows)
+[2026-10-07T16:48:10Z] wrote real/07_reconciliation_dropped.tsv (0 rows)
+[2026-10-07T16:48:10Z] COUNT  6.6 isolates retained                                127
+[2026-10-07T16:48:10Z] COUNT  6.6 countries represented                            16

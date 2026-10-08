@@ -1,0 +1,10 @@
+biosample	assigned_country	location_string	submission_date	mcr_variants	reason_earlier_search_missed_it
+SAMEA120683848	Central African Republic	Central African Republic	2026-02-09	mcr-1.1	location string not matched by the earlier 45-name wildcard list
+SAMEA120683850	Central African Republic	Central African Republic	2026-02-09	mcr-1.1	location string not matched by the earlier 45-name wildcard list
+SAMEA5988742	South Africa	South Africa	2019-12-05	mcr-1.1	location string not matched by the earlier 45-name wildcard list
+SAMN09303237	South Africa	South Africa: Stanger	2018-11-20	mcr-1.1	location string not matched by the earlier 45-name wildcard list
+SAMN14219481	South Africa	South Africa:KwaZulu-Natal	2020-11-02	mcr-9	location string not matched by the earlier 45-name wildcard list
+SAMN28613555	Democratic Republic of the Congo	Democratic Republic of the Congo: Kinshasa	2022-09-20	mcr-1.1	location string not matched by the earlier 45-name wildcard list
+SAMN28613556	Democratic Republic of the Congo	Democratic Republic of the Congo: Kinshasa	2022-09-20	mcr-1.1	location string not matched by the earlier 45-name wildcard list
+SAMN36943049	South Africa	South Africa	2023-12-18	mcr-1.1	location string not matched by the earlier 45-name wildcard list
+SAMN49772998	South Africa	South Africa	2025-11-25	mcr-9.1	location string not matched by the earlier 45-name wildcard list

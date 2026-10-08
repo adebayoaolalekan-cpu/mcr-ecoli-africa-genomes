@@ -672,5 +672,89 @@
    "clinical": 552,
    "environmental/other": 4
   }
+ },
+ {
+  "erd": "PDS000254566.1",
+  "ours": [
+   "SAMEA120683848",
+   "SAMEA120683850"
+  ],
+  "n_ours": 2,
+  "countries": {
+   "Central African Republic": 2
+  },
+  "sectors": {
+   "Human": 2
+  },
+  "sts": {
+   "226": 2
+  },
+  "min_same": [
+   "",
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "Central African Republic": 2
+  },
+  "epi": {
+   "clinical": 2
+  },
+  "note": "cluster contains only these two isolates; clonal pair from one submission"
+ },
+ {
+  "erd": "PDS000170401.1",
+  "ours": [
+   "SAMN36943049"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "South Africa": 1
+  },
+  "sectors": {
+   "Human": 1
+  },
+  "sts": {
+   "226": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 2,
+  "mcr_pos": 2,
+  "geos": {
+   "South Africa": 1
+  },
+  "epi": {
+   "clinical": 1
+  },
+  "note": "other member is SAMN36736405, Portugal 2022, Homo sapiens, mcr-positive; first intercontinental cluster in the cohort"
+ },
+ {
+  "erd": "PDS000077760.33",
+  "ours": [
+   "SAMN28613555"
+  ],
+  "n_ours": 1,
+  "countries": {
+   "Democratic Republic of the Congo": 1
+  },
+  "sectors": {
+   "Other animal": 1
+  },
+  "sts": {
+   "69": 1
+  },
+  "min_same": [
+   ""
+  ],
+  "members": 56,
+  "mcr_pos": 1,
+  "geos": {
+   "Democratic Republic of the Congo": 1
+  },
+  "epi": {},
+  "note": "56 members: USA 23, Belgium 7, Switzerland 6, France 5, Netherlands 3, Canada 2, Denmark 2, Germany 1, Luxembourg 1, Sweden 1, DRC 1, unrecorded 4; hosts Homo sapiens 17, cattle 22, turkey 2; 2008-2024. The baboon isolate is the only African member and the only mcr-positive member."
  }
 ]

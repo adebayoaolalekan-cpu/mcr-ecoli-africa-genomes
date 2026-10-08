@@ -1,0 +1,10 @@
+assembly	biosample	country	sector	host_or_source	mcr_variant	ST_achtman	mcr_contig_bp	mcr_replicon	evidence_level	acquired_AMR_genes
+GCA_977857845.1	SAMEA120683848	Central African Republic	Human	Homo sapiens (clinical)	mcr-1.1	226	32730	IncX4	2	11
+GCA_977859995.1	SAMEA120683850	Central African Republic	Human	Homo sapiens (clinical)	mcr-1.1	226	32686	IncX4	2	18
+GCA_902703155.1	SAMEA5988742	South Africa	Human	Homo sapiens (clinical material)	mcr-1.1	602	56159	IncI2	2	9
+GCA_003795445.1	SAMN09303237	South Africa	Other animal	pig (nares)	mcr-1.1	9440	2943	IncHI2 (MOB-Recon bin AA738)	4	14
+GCA_015208565.1	SAMN14219481	South Africa	Environment	wastewater	mcr-9	69	2621	unresolved (chromosome bin)	4	3
+GCA_025336805.1	SAMN28613555	Democratic Republic of the Congo	Other animal	Papio cynocephalus (faeces)	mcr-1.1	69	2486	unresolved (untyped plasmid bin AB714)	4	2
+GCA_025336825.1	SAMN28613556	Democratic Republic of the Congo	Other animal	Papio cynocephalus (faeces)	mcr-1.1	101	66451	IncI2	2	12
+GCA_034465125.1	SAMN36943049	South Africa	Human	Homo sapiens	mcr-1.1 (two calls)	226	2603 / 2685	unresolved (chromosome bin / mixed IncF+IncHI2 bin AA738)	4	11
+GCA_053709775.1	SAMN49772998	South Africa	Food (non-poultry)	cucumber	mcr-9.1	297	3461	unresolved (chromosome bin)	4	3

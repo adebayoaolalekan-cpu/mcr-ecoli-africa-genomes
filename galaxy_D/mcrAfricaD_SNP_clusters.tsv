@@ -1,0 +1,10 @@
+biosample	pd_target	assembly	country	pds_cluster	cluster_size	cluster_composition	note
+SAMEA120683848	PDT003089299.1	GCA_977857845.1	Central African Republic	PDS000254566.1	2	the two CAR isolates only	clonal pair from one submission; no other member
+SAMEA120683850	PDT003089301.1	GCA_977859995.1	Central African Republic	PDS000254566.1	2	the two CAR isolates only	clonal pair from one submission; no other member
+SAMN36943049	PDT002034360.1	GCA_034465125.1	South Africa	PDS000170401.1	2	South Africa 2015 + Portugal 2022, both human, both mcr-positive	first intercontinental cluster in the cohort
+SAMN28613555	PDT001428169.1	GCA_025336805.1	Democratic Republic of the Congo	PDS000077760.33	56	USA 23, Belgium 7, Switzerland 6, France 5, Netherlands 3, Canada 2, Denmark 2, Germany 1, Luxembourg 1, Sweden 1, DRC 1, unrecorded 4; hosts Homo sapiens 17, cattle 22, turkey 2; 2008-2024	baboon is the only African member and the only mcr-positive member of 56
+SAMN28613556	PDT001428170.1	GCA_025336825.1	Democratic Republic of the Congo	none	1	singleton	
+SAMEA5988742	PDT000640376.1	GCA_902703155.1	South Africa	none	1	singleton	
+SAMN09303237	PDT000409988.1	GCA_003795445.1	South Africa	none	1	singleton	
+SAMN14219481	PDT000878268.1	GCA_015208565.1	South Africa	none	1	singleton	
+SAMN49772998	PDT003000705.1	GCA_053709775.1	South Africa	none	1	singleton	
