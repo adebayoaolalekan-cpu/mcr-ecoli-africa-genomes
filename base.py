@@ -14,6 +14,11 @@ def load():
         if s.startswith('IncI2'): return 'IncI2'
         if s.startswith('IncX4'): return 'IncX4'
         return 'Other plasmid'
+    # QC exclusion: genomes failing the CheckM2 contamination ceiling stated in the
+    # Methods are retained in the workbook but excluded from every analysis.
+    inc=d.get('Included in analysis')
+    if inc is not None:
+        d=d[inc.astype(str).str.strip().str.lower()!='no'].copy()
     d['rep']=d['Plasmid replicon carrying mcr - to fill'].map(cat)
     d['evid']=d['Plasmid replicon carrying mcr - to fill'].map(lambda s:'MOB-Recon' if 'MOB-Recon' in str(s) else 'Same contig')
     d['gene']=d['mcr variant(s)'].map(lambda s:'mcr-9' if 'mcr-9' in s else ('mcr-10' if 'mcr-10' in s else 'mcr-1'))

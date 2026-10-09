@@ -2,9 +2,19 @@
 
 Analysis code and data for the study of plasmid replicon types and sequence
 types of *mcr*-positive *E. coli* genomes from Africa held in NCBI Pathogen
-Detection (127 genomes, 16 countries, 2005–2025).
+Detection (127 genomes retrieved from 16 countries, 2005–2025; 126 analysed
+after quality control).
 
-> **v2.0.0 supersedes v1.0.0.** The earlier release held 118 genomes from 13 countries. It was
+> **v2.1.0 applies the stated quality-control criterion.** One retrieved genome,
+> GCA_015208565.1 (SAMN14219481, South African wastewater, *mcr-9*), returns 6.00% estimated
+> CheckM2 contamination against the 5% ceiling set in the Methods. v2.0.0 retained it with a
+> justification; v2.1.0 excludes it, as the criterion requires. The genome stays in
+> `Supplementary_Table_S1_per_genome_results.xlsx` with its CheckM2 values and the reason for
+> exclusion recorded, and the retrieval files still hold all 127, so both sets can be
+> reconstructed. `base.py` filters on the `Included in analysis` column, so every script in this
+> directory now reports the 126-genome analysed set.
+
+> **v2.0.0 superseded v1.0.0.** The earlier release held 118 genomes from 13 countries. It was
 > retrieved by filtering Pathogen Detection on a 45-name African country list at query time, and
 > that list omitted nine of the 54 African Union member states, including South Africa, the Central
 > African Republic and the Democratic Republic of the Congo. Nine genomes were missed. v2.0.0

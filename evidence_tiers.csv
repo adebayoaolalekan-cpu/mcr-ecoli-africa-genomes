@@ -117,3 +117,11 @@ SAMN11553648,GCA_006348965.1,mcr-1,Mixed MOB-Recon bin,MOB-Recon,46544.0,T3 MOB-
 SAMN11388480,SRR8885624,mcr-9,Other plasmid,MOB-Recon,9268.0,T3 MOB-Recon contig >=5 kb
 SAMN10986381,SRR8610346,mcr-1,IncX4,Same contig,,T2 same contig (draft)
 SAMN06928086,SRR5688555,mcr-1,IncHI2,MOB-Recon,101777.0,T3 MOB-Recon contig >=5 kb
+SAMEA120683848,GCA_977857845.1,mcr-1,IncX4,Same contig,32730.0,T2 same contig (draft)
+SAMEA120683850,GCA_977859995.1,mcr-1,IncX4,Same contig,32686.0,T2 same contig (draft)
+SAMEA5988742,GCA_902703155.1,mcr-1,IncI2,Same contig,56159.0,T2 same contig (draft)
+SAMN09303237,GCA_003795445.1,mcr-1,IncHI2,MOB-Recon,2943.0,T4 MOB-Recon contig <5 kb
+SAMN28613555,GCA_025336805.1,mcr-1,Other plasmid,MOB-Recon,2486.0,T4 MOB-Recon contig <5 kb
+SAMN28613556,GCA_025336825.1,mcr-1,IncI2,Same contig,66451.0,T2 same contig (draft)
+SAMN36943049,GCA_034465125.1,mcr-1,Mixed MOB-Recon bin,MOB-Recon,2685.0,T4 MOB-Recon contig <5 kb
+SAMN49772998,GCA_053709775.1,mcr-9,Chromosomal or unresolved,MOB-Recon,3461.0,T4 MOB-Recon contig <5 kb

@@ -2,118 +2,118 @@
  "all": [
   {
    "IncI2": [
-    59.0,
-    50.0
+    61.0,
+    48.4
    ],
    "IncX4": [
-    28.0,
-    23.7
+    30.0,
+    23.8
    ],
    "IncHI2": [
-    20.0,
-    16.9
+    21.0,
+    16.7
    ],
    "Mixed MOB-Recon bin": [
-    4.0,
-    3.4
+    5.0,
+    4.0
    ],
    "Other plasmid": [
-    4.0,
-    3.4
+    5.0,
+    4.0
    ],
    "Chromosomal or unresolved": [
-    3.0,
-    2.5
+    4.0,
+    3.2
    ]
   },
-  118.0
+  126.0
  ],
  "excl_PRJNA1273464": [
   {
    "IncI2": [
-    20.0,
+    22.0,
     25.3
    ],
    "IncX4": [
-    28.0,
-    35.4
+    30.0,
+    34.5
    ],
    "IncHI2": [
-    20.0,
-    25.3
+    21.0,
+    24.1
    ],
    "Mixed MOB-Recon bin": [
-    4.0,
-    5.1
+    5.0,
+    5.7
    ],
    "Other plasmid": [
-    4.0,
-    5.1
+    5.0,
+    5.7
    ],
    "Chromosomal or unresolved": [
-    3.0,
-    3.8
+    4.0,
+    4.6
    ]
   },
-  79.0
+  87.0
  ],
  "bioproject_weighted": [
   {
    "IncI2": [
-    10.2,
-    27.6
+    11.7,
+    27.9
    ],
    "IncX4": [
-    9.5,
-    25.5
+    10.1,
+    24.1
    ],
    "IncHI2": [
-    8.6,
-    23.2
+    9.6,
+    22.8
    ],
    "Mixed MOB-Recon bin": [
-    2.8,
-    7.4
+    3.8,
+    8.9
    ],
    "Other plasmid": [
-    3.5,
-    9.5
+    3.3,
+    7.9
    ],
    "Chromosomal or unresolved": [
-    2.5,
-    6.8
+    3.5,
+    8.3
    ]
   },
-  37.0
+  42.0
  ],
  "one_per_bioproject_modal": [
   {
    "IncI2": [
-    11.0,
-    29.7
+    12.0,
+    28.6
    ],
    "IncX4": [
-    10.0,
-    27.0
+    11.0,
+    26.2
    ],
    "IncHI2": [
-    9.0,
-    24.3
+    10.0,
+    23.8
    ],
    "Mixed MOB-Recon bin": [
-    2.0,
-    5.4
+    3.0,
+    7.1
    ],
    "Other plasmid": [
     3.0,
-    8.1
+    7.1
    ],
    "Chromosomal or unresolved": [
-    2.0,
-    5.4
+    3.0,
+    7.1
    ]
   },
-  37.0
+  42.0
  ],
  "poultry_all": [
   {
@@ -176,31 +176,31 @@
  "human_all": [
   {
    "IncI2": [
-    6.0,
-    20.0
+    7.0,
+    20.6
    ],
    "IncX4": [
-    14.0,
-    46.7
+    16.0,
+    47.1
    ],
    "IncHI2": [
     4.0,
-    13.3
+    11.8
    ],
    "Mixed MOB-Recon bin": [
-    0.0,
-    0.0
+    1.0,
+    2.9
    ],
    "Other plasmid": [
     3.0,
-    10.0
+    8.8
    ],
    "Chromosomal or unresolved": [
     3.0,
-    10.0
+    8.8
    ]
   },
-  30.0
+  34.0
  ],
  "poultry_bpweighted": [
   {
@@ -231,47 +231,47 @@
   },
   10.0
  ],
- "n_ST_all": 49,
- "n_ST_excl": 35,
- "n_countries_excl": 13,
- "n_excl": 79,
+ "n_ST_all": 51,
+ "n_ST_excl": 39,
+ "n_countries_excl": 16,
+ "n_excl": 87,
  "sector_excl": {
-  "Human": 30,
+  "Human": 34,
   "Poultry": 23,
   "Unspecified": 11,
-  "Food (non-poultry)": 8,
-  "Other animal": 4,
+  "Food (non-poultry)": 9,
+  "Other animal": 7,
   "Environment": 3
  },
  "one_per_snp_cluster": [
   {
    "IncI2": [
-    44.0,
-    49.4
+    46.0,
+    47.9
    ],
    "IncX4": [
-    17.0,
-    19.1
+    18.0,
+    18.8
    ],
    "IncHI2": [
-    17.0,
-    19.1
+    18.0,
+    18.8
    ],
    "Mixed MOB-Recon bin": [
-    4.0,
-    4.5
+    5.0,
+    5.2
    ],
    "Other plasmid": [
-    4.0,
-    4.5
+    5.0,
+    5.2
    ],
    "Chromosomal or unresolved": [
-    3.0,
-    3.4
+    4.0,
+    4.2
    ]
   },
-  89.0
+  96.0
  ],
- "n_snpdedup": 89,
- "n_bioprojects": 37
+ "n_snpdedup": 96,
+ "n_bioprojects": 42
 }

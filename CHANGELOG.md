@@ -1,5 +1,75 @@
 # Changelog
 
+## v2.1.0 — 2026-10-08
+
+One genome is excluded, and the analysed collection becomes **126 of the 127 retrieved**.
+
+### Why
+
+GCA_015208565.1 (SAMN14219481), the South African wastewater isolate carrying mcr-9, returns 6.00%
+estimated CheckM2 contamination. The Methods set a 5% ceiling. v2.0.0 retained the genome and
+argued the case in the Limitations; v2.1.0 applies the criterion as written and leaves it out. It
+is the only genome in the collection to exceed the ceiling, and the highest contamination among the
+126 analysed genomes is 3.64%.
+
+The genome is not deleted. It stays in `Supplementary_Table_S1_per_genome_results.xlsx` with its
+CheckM2 values, and two new columns record the decision:
+
+```
+Included in analysis    Yes / No
+Reason for exclusion    CheckM2 contamination 6.00%, above the 5% ceiling stated in the Methods
+```
+
+`base.py` filters on that column, so every script in this directory reports the analysed set while
+the retrieval files under `retrieval/` continue to hold all 127. Either set can be reconstructed
+from what is here.
+
+### What moves
+
+| | v2.0.0 | v2.1.0 |
+|---|---|---|
+| Genomes analysed | 127 | 126 |
+| Countries | 16 | 16 |
+| mcr-1 | 116 | 116 |
+| mcr-9 | 10 | 9 |
+| mcr-10.1 | 1 | 1 |
+| Environment sector | 4 | 3 |
+| IncI2 | 61 (48.0%) | 61 (48.4%) |
+| IncX4 | 30 (23.6%) | 30 (23.8%) |
+| IncHI2 | 21 (16.5%) | 21 (16.7%) |
+| Same-contig assignments | 83 | 83 |
+| MOB-Recon assignments | 44 | 43 |
+| Evidence levels 1/2/3/4 | 1/82/26/18 | 1/82/26/17 |
+| Genomes with a numbered ST | 122 | 121 |
+| Distinct numbered STs | 50 | 50 |
+| BioProjects | 43 | 42 |
+| Poultry share | 48.8% | 49.2% |
+
+The substantive consequence is for mcr-9. The excluded genome was the only environmental mcr-9 in
+the collection, so the claim that mcr-9 had been found in the environment is withdrawn. What
+remains is one food genome, a South African cucumber carrying mcr-9.1. The association between
+mcr-9 and IncHI2 still rests on six MOB-Recon assignments, now out of nine mcr-9 genomes rather
+than ten.
+
+### Files changed
+
+- `base.py` — filters on `Included in analysis`.
+- `audit.py` — assertions updated, and three new checks: 127 retrieved rows, exactly one
+  QC-excluded row, and no analysed genome above 5% contamination. All 19 checks pass.
+- `Supplementary_Table_S1_per_genome_results.xlsx` — two columns added to `Isolates`; the `Summary`
+  sheet now counts the analysed set and carries a retrieval-and-quality-control block.
+- `Supplementary_Tables_S2-S6.xlsx`, `tables.json`, `sens.json`, `figure1.png`,
+  `evidence_tiers.csv`, `bioproject_summary.csv` — regenerated.
+- `README.md` — cohort description updated.
+
+### Corrections carried in the same release
+
+Three numbers in the v2.0.0 manuscript draft were wrong independently of the exclusion and are
+corrected here and in the paper: the count of genomes sharing a SNP cluster with another African
+genome (47, not 53), the CTX-M count among human isolates (14 of 34, not 15), and the statement
+that every unresolved mcr contig was shorter than 3.5 kb, which does not hold for a Togolese
+mcr-9.1 on a 7.9 kb contig.
+
 ## v2.0.0 — 2026-10-08
 
 The cohort grows from 118 genomes in 13 countries to **127 genomes in 16 countries**. All 118 genomes
